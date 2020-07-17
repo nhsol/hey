@@ -1,0 +1,144 @@
+
+
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@supports ((-webkit-backdrop-filter: opacity(1)) or (backdrop-filter: opacity(1))) {
+  .no-support {
+    display: none;
+    display: block;
+  }
+}
+
+@-webkit-keyframes flash {
+ 0%, 50%, 100% {
+ opacity: 1;
+ }
+
+ 25%, 75% {
+ opacity: 0;
+ }
+ }
+
+ @keyframes flash {
+ 0%, 50%, 100% {
+ opacity: 1;
+ }
+
+ 25%, 75% {
+ opacity: 0;
+ }
+ }
+
+
+body {
+  background: #000000;
+}
+
+p, li, h1, h2{
+  color: #ffffff;
+}
+
+
+nav{
+  align-items: flex-start;
+  font-family: "ALS_Sector_Regular_2.0", sans-serif;
+}
+
+.contacts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+
+.main{
+  font-family: "ALS_Sector_Bold_2.0",sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.main ul{
+  opacity: 30%;
+}
+
+.main ul:first-child{
+
+  animation: flash 2.5s infinite;
+  animation-timing-function: linear;
+
+}
+
+.is-studio-logo{
+  font-family: "ALS_Sector_Regular_2.0", sans-serif;
+  font-size: 16px;
+}
+
+.is-studio-logo p{
+  margin-top: 5px;
+}
+
+
+
+#about {
+  z-index: 1;
+  position: fixed;
+  top: 0%;
+
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.30);
+  backdrop-filter: blur(20px);
+
+  overflow: scroll;
+
+  padding-bottom: 100%;
+
+  display: none;
+}
+
+#about .active{
+  top: 100%
+}
+
+#about p{
+
+
+  font-family: "ALS_Sector_Regular_2.0",sans-serif;
+}
+
+
+#about h1{
+  font-family: "ALS_Sector_Bold_2.0",sans-serif;
+}
+
+
+#about .toggle-btn-cancel{
+  z-index: 2;
+  position: sticky;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  background: #151515;
+  border-radius: 19.5px;
+  text-align: center;
+  padding: 10px;
+  top: 0px;
+  left: 45%;
+  display: flex;
+
+}
+
+.toggle-btn-cancel img{
+  margin: auto;
+
+}
