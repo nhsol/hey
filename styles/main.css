@@ -87,6 +87,10 @@ a {
   margin-top: 5px;
 }
 
+.main li{
+ cursor: pointer;
+}
+
 
 
 #about {
@@ -98,18 +102,31 @@ a {
   background: rgba(0,0,0,0.30);
   backdrop-filter: blur(20px);
 
+
   overflow: scroll;
 
   padding-bottom: 100%;
 
-  display: none;
 
-  top: 0%;
+  bottom: 100%;
+
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+  transition: all 600ms;
+
 }
 
-#about .active{
-  display: block;
+#about.active{
+  bottom: 0%
 }
+
+
+#about.close{
+  bottom: 100%;
+
+}
+
 
 #about p{
 

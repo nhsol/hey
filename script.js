@@ -1,8 +1,23 @@
 
-let is-about = document.querySelector('is-about')
+// let toggler = document.getElementById('toggle-btn-about')
+//
+// toggler.onclick = openAbout()
+//
+// function openAbout() {
+//
+//   document.getElementById('about').classList.toggle('active');
+// }
 
-is-about.onclick = openAbout
 
 function openAbout() {
-  document.getElementById("about").classList.toggle('active');
+
+  document.getElementById("about").classList.toggle('active')
+
+}
+
+
+function closeAbout() {
+
+  document.getElementById("about").classList.toggle('close')
+
 }

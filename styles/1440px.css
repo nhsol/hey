@@ -24,7 +24,7 @@
     z-index: 1;
     position: fixed;
     top: 0%;
-    right: 0;
+    right: -100%;
 
     width: 30%;
     height: 100%;
@@ -36,6 +36,8 @@
     padding-bottom: 0%;
 
     display: block;
+
+    cursor: pointer;
   }
 
 
