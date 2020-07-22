@@ -44,13 +44,13 @@
   }
 
 
-  #about p{
+  #about-us p{
     font-size: 18px;
     line-height: 27px;
     padding: 10px 20px 20px 20px;
   }
 
-  #about h1{
+  #about-us h1{
     font-size: 30px;
     line-height: 35px;
     padding: 40px 20px 20px 20px;
@@ -95,7 +95,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-
+  
   }
 
 

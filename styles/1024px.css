@@ -38,7 +38,7 @@
 
 
 
-  #about {
+  #about-us {
     z-index: 1;
     position: fixed;
     top: 0%;
@@ -57,13 +57,13 @@
   }
 
 
-  #about p{
+  #about-us p{
     font-size: 20px;
     line-height: 27px;
     padding: 20px 30px 20px 30px;
   }
 
-  #about h1{
+  #about-us h1{
 
     padding: 40px 30px 20px 30px;
     font-size: 45px;

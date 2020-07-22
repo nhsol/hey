@@ -108,20 +108,20 @@
 
 
 
-  #about p{
+  #about-us p{
     font-size: 16px;
     line-height: 22px;
     padding: 20px 20px 20px 20px;
   }
 
-  #about h1{
+  #about-us h1{
 
     padding: 20px 20px 20px 20px;
     font-size: 30px;
     line-height: 40px;
   }
 
-  #about {
+  #about-us {
     z-index: 1;
     position: fixed;
 
@@ -144,12 +144,12 @@
     transition: all 600ms;
   }
 
-  #about.active{
+  #about-us.active{
     right: 0%
   }
 
 
-  #about.close{
+  #about-us.close{
     right: -100%;
 
   }
