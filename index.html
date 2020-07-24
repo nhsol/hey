@@ -8,109 +8,202 @@
   </head>
   <body>
 
-  <nav>
-    <div class="overview">
-      <img class="logo" src="img/logo.svg" alt="logo">
-      <p> We&nbsp;produce the highest-quality infrared optical materials and substrates for commercial, aerospace, defense and semiconductor industry.</p>
-    </div>
+  <section class="body">
+    <nav>
+      <div class="overview">
+        <img class="logo" src="img/logo.svg" alt="logo">
+        <p> We&nbsp;produce the highest-quality infrared optical materials and substrates for commercial, aerospace, defense and semiconductor industry.</p>
+      </div>
 
-    <ul class="contacts">
-      <li>
-        <a href="#">+1 718-219-7666</a>
-      </li>
+      <ul class="contacts">
+        <li>
+          <a href="#">+1 718-219-7666</a>
+        </li>
 
-      <li>
-        <a href="#">info@nhsol.net</a>
-      </li>
+        <li>
+          <a href="#">info@nhsol.net</a>
+        </li>
 
-      <li>
-        <a href="#">East 14th Street Suite, Brooklyn, NY</a>
-      </li>
-    </ul>
-  </nav>
+        <li>
+          <a href="#">East 14th Street Suite, Brooklyn, NY</a>
+        </li>
+      </ul>
+    </nav>
 
-  <section class="main">
+    <section class="main">
 
-    <ul>
-      <li class="is-about" onclick="openAbout()" id="li">
-        About us
-      </li>
-    </ul>
+      <ul class="is-about">
+        <li id="li-about" onclick="openAbout()">
+          About us
+        </li>
+      </ul>
 
-    <ul class="is-germanium">
-      <li id="li">
-        Germanium
-      </li>
-      <li id="li">
-        Germanium Granules
-      </li>
-      <li id="li">
-        Germanium Optics
-      </li>
-      <li id="li">
-        Germanium Dioxide (GeO2)
-      </li>
-      <li id="li">
-        Polycrystalline Germanium (GPZ)
-      </li>
-    </ul>
+      <ul class="is-germanium">
+        <li id="li-germanium" onclick="openGermanium()">
+          Germanium
+        </li>
+        <li id="li-germanium-granules" onclick="openGermaniumGranules()">
+          Germanium Granules
+        </li>
+        <li id="li-germanium-optics" onclick="openGermaniumOptics()">
+          Germanium Optics
+        </li>
+        <li id="li-germanium-dioxide" onclick="openGermaniumDioxide()">
+          Germanium Dioxide (GeO2)
+        </li>
+        <li id="li-polycrystalline-germanium" onclick="openPolycrystallineGermanium()">
+          Polycrystalline Germanium (GPZ)
+        </li>
+      </ul>
 
-    <ul class="is-silicon">
-      <li id="li">
-        Silicon
-      </li>
-    </ul>
+      <ul class="is-silicon">
+        <li id="li-silicon" onclick="openSilicon()">
+          Silicon
+        </li>
+      </ul>
 
-    <ul class="is-zinc">
-      <li id="li">
-        Zinc Selenide (ZnSe)
-      </li>
-      <li id="li">
-        Zinc Sulfide (ZnS)
-      </li>
-    </ul>
+      <ul class="is-zinc">
+        <li id="li-zinc-salenide" onclick="openZincSalenide()">
+          Zinc Selenide (ZnSe)
+        </li>
+        <li id="li-zinc-sulfide" onclick="openZincSulfide()">
+          Zinc Sulfide (ZnS)
+        </li>
+      </ul>
 
-    <ul class="is-recycling">
-      <li id="li">
-        Recycling
-      </li>
-    </ul>
+      <ul class="is-recycling" onclick="openRecycling()">
+        <li id="li-recycling">
+          Recycling
+        </li>
+      </ul>
 
-    <ul class="is-contact">
-      <li id="li">
-        Contact us
-      </li>
-    </ul>
+      <ul class="is-contact">
+        <li id="li">
+          Contact us
+        </li>
+      </ul>
 
+    </section>
+
+    <footer>
+      <div class="art-lebedev-logo">
+        <img src="img/art-lebedev-logo.svg" alt="art-lebedev-logo">
+        <p>Site by <a href="#">Art. Lebedev</a></p>
+      </div>
+      <div class="is-copyright">
+        <p> @NightHawk Solutions </p>
+      </div>
+    </footer>
   </section>
 
-  <footer>
-    <div class="art-lebedev-logo">
-      <img src="img/art-lebedev-logo.svg" alt="art-lebedev-logo">
-      <p>Site by <a href="#">Art. Lebedev</a></p>
-    </div>
-    <div class="is-copyright">
-      <p> @NightHawk Solutions </p>
-    </div>
-  </footer>
 
-
-  <div class="is eye">
-    <div class="is rotate">
-      <div class="staff" id="germanium">
+  <div class="is eye" id="eye">
+    <div class="is rotate" id="rotate">
+      <div class="is germanium" id="img-germanium">
+        <img src="germanium.png" alt="">
       </div>
+      <div class="is dioxide" id="img-dioxide">
+        <img src="dioxide.png" alt="">
+      </div>
+
     </div>
   </div>
 
+  <section class="sidebar">
 
-  <div id="about-us">
-      <div class="toggle-btn-cancel" onclick="closeAbout()">
-       <img src="img/cancel.svg" alt="cancel">
-      </div>
-      <h1>About us</h1>
-      <p>NightHawk Solutions is proud to provide the highest-quality infrared optical materials and substrates to our valuable customers in the commercial, aerospace, defense and semiconductor industry.
-      Our main products include, but not are limited to, germanium, silicon, zinc selenide (ZnSe), zinc sulfide (ZnS) windows, mirrors, lenses, prisms and wafers.</p> <p>Here at NightHawk Solutions we are proud to be a provider of germanium recycling services helping the production facilities to do the business more cost-effective and cleaner. You are welcome to contact us with any questions and concerns related to the recycling of germanium.</p>
-  </div>
+
+    <div class"sidebar-about-us" id="about-us">
+        <div class="toggle-btn-cancel" onclick="closeAbout()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>About us</h1>
+        <p>NightHawk Solutions is proud to provide the highest-quality infrared optical materials and substrates to our valuable customers in the commercial, aerospace, defense and semiconductor industry.
+        Our main products include, but not are limited to, germanium, silicon, zinc selenide (ZnSe), zinc sulfide (ZnS) windows, mirrors, lenses, prisms and wafers.</p> <p>Here at NightHawk Solutions we are proud to be a provider of germanium recycling services helping the production facilities to do the business more cost-effective and cleaner. You are welcome to contact us with any questions and concerns related to the recycling of germanium.</p>
+    </div>
+
+    <div class"sidebar-germanium" id="germanium">
+        <div class="toggle-btn-cancel" onclick="closeGermanium()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Germanium</h1>
+        <p>Germanium is widely used in fiber optics, infrared optics, semiconductors and solar applications. It is considered a strategic material for many military and commercial applications.</p><p>The NightHawk Solutions” list of products includes, but is not limited to, the following items:</p><p>— Optical elements of various shapes and configurations (windows, wafers, prisms, lenses) per individual customers' specification</p> <p>— Germanium dioxide</p><p>— GeO2 (up to 99.9999%</p><p>— Polycrystalline germanium</p><p>— GPZ (up to 99.9999%)</p><p>— Germanium granules (up to 99.999%).</p>
+    </div>
+
+    <div class"sidebar-germanium-granules" id="germanium-granules">
+        <div class="toggle-btn-cancel" onclick="closeGermaniumGranules()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Germanium Granules</h1>
+        <p>Germanium granules are primarily used for evaporating and coating processes, where high-tech applications are regularly sensitive to the pureness and quality.</p><p>NightHawk Solutions is able to provide 99.999% pure germanium granules with low oxygen content conforming to the most demanding requirements.</p>
+    </div>
+
+    <div class"sidebar-germanium-optics" id="germanium-optics">
+        <div class="toggle-btn-cancel" onclick="openGermaniumOptics()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Germanium Optics</h1>
+        <p>In 2-14 μm range infrared optical systems, germanium is the most widely used material for making lenses and windows.</p><p>NightHawk Solutions offers a wide range of germanium optical elements per customers' specifications: windows, wafers, prisms, and lenses. All the optics are available both raw and finished as per request.</p>
+    </div>
+
+    <div class"sidebar-germanium-dioxide" id="germanium-dioxide">
+        <div class="toggle-btn-cancel" onclick="closeGermaniumDioxide()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Germanium Dioxide (GeO2)</h1>
+        <p>The refractive index and optical dispersion properties of germanium dioxide make it useful as an optical material for wide-angle lenses, in optical microscope objective lenses, and for the core of fiber-optic lines.</p><p>Germanium dioxide is also used in catalysts for polymerization in the production of polyethylene terephthalate (PET).</p>
+    </div>
+
+    <div class"sidebar-polycrystalline-germanium" id="polycrystalline-germanium">
+        <div class="toggle-btn-cancel" onclick="closePolycrystallineGermanium()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Polycrystalline Germanium</h1>
+        <p>Polycrystalline germanium is mainly used as a raw material in the single crystal growing process. Insofar as the quality of monocrystalline germanium depends principally on the technology and source material, high quality GPZ is considered essential for the pulling process.</p>
+        <p>NightHawk Solutions offers 99.9999% polycrystalline germanium suitable for growing.</p>
+    </div>
+
+    <div class"sidebar-silicon" id="silicon">
+        <div class="toggle-btn-cancel" onclick="closeSilicon()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Silicon</h1>
+        <p>Commonly, silicon is considered as the material of choice for systems operating in the Middle Infrared (MIR) region, from 3 to 5 µm. But in fact, the material may be used in a much broader operating range — from 1.2 µm to 1000 µm or even higher.</p>
+        <p>Due to its high absorption at a wavelength of 9 µm, optical silicon is not used in CO2 lasers as transmitting optics, but is widely used for the production of mirrors.</p>
+        <p>NightHawk solutions offers silicon windows, mirrors, witness samples, and lenses.</p>
+    </div>
+
+    <div class"sidebar-zinc-selenide" id="zinc-selenide">
+        <div class="toggle-btn-cancel" onclick="closeZincSalenide()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Zinc Selenide</h1>
+        <p>Zinc Selenide (ZnSe) is widely used in CO2 laser components, infrared spectroscopy, imaging systems, IR pyrometers, surveillance and detection systems.</p>
+        <p>Zinc Selenide is transparent in wide spectral range from visible to far infrared. ZnSe material is a chemically inert, non-hygroscopic and highly pure product that is very effective in many optical applications due to its extremely low bulk losses, high resistance to thermal shock and stability in virtually all environments.</p>
+        <img src="img/zinc_salenide.png" alt="zinc-salenide"></img>
+        <p>NightHawk Solutions is able to provide windows, lenses, prisms and custom-made ZnSe optics.</p>
+    </div>
+
+    <div class"sidebar-zinc-sulfide" id="zinc-sulfide">
+        <div class="toggle-btn-cancel" onclick="closeZincSulfide()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Zinc Sulfide</h1>
+        <p>Zinc Sulfide (ZnS) is used in high-speed optical systems designed for the air force. It helps to detect and destroy low-temperature targets (radomes of self-targeting missiles, guided missiles and bombs, laser location systems), as well as other optical systems operating both in the visible and infrared (3-5 microns and 8-12 microns) spectrum.</p>
+        <img src="img/zinc_sulfide.png" alt="zinc-sulfide">
+        <p>NightHawk Solutions is able to provide large optical elements made of high purity zinc sulfide by chemical vapor deposition.</p>
+    </div>
+
+    <div class"sidebar-recycling" id="recycling">
+        <div class="toggle-btn-cancel" onclick="closeRecycling()">
+         <img src="img/cancel.svg" alt="cancel">
+        </div>
+        <h1>Recycling</h1>
+        <p>Germanium&rsquo;s abundance in&nbsp;the Earth&rsquo;s crust is&nbsp;approximately 1.6&nbsp;ppm. Only a&nbsp;few minerals like argyrodite, briartite, germanite, and renierite contain appreciable amounts of&nbsp;germanium, but there are none in&nbsp;mineable deposits. Germanium seldom appears in&nbsp;high concentrations. It&nbsp;is&nbsp;mainly a&nbsp;byproduct of&nbsp;zinc ore processing.</p>
+        <p>The importance of&nbsp;recycled germanium recovered from end-of-life products, such as&nbsp;fiber optics, military vehicles, and solar cells, should not be&nbsp;underestimated. Recycling is&nbsp;expected to&nbsp;increase during the next two decades as&nbsp;aging products are taken out of&nbsp;service.</p><p>Worldwide, about&nbsp;30% of&nbsp;the total germanium consumed is&nbsp;produced from recycled materials.<p>
+        <p>NightHawk Solutions asks you to&nbsp;consider recycling your germanium refuse items, broken optics, technology wastes and liquids. We&nbsp;work with germanium as&nbsp;low as&nbsp;2% content solutions and compounds to&nbsp;give a&nbsp;second life to&nbsp;germanium products.</p><p>You are welcome to&nbsp;contact&nbsp;us with any requests and concerns related to&nbsp;the recycling of&nbsp;germanium.</p>
+    </div>
+
+  </section>
 
 
  <script src="script.js"></script>

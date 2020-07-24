@@ -51,7 +51,7 @@
     background-repeat: no-repeat;
   }
 
-  .staff{
+  .germanium{
 
     width: calc(100%/2);
     height: calc(100%/2);
@@ -62,6 +62,20 @@
     background-repeat: no-repeat;
 
   }
+
+  .dioxide{
+
+    width: calc(100%/2);
+    height: calc(100%/2);
+
+    background-image: url(../img/germanium.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+
+
   .is {
     display: flex;
     margin: auto;
@@ -108,13 +122,13 @@
 
 
 
-  #about-us p{
+  .sidebar p{
     font-size: 16px;
     line-height: 22px;
     padding: 20px 20px 20px 20px;
   }
 
-  #about-us h1{
+  .sidebar h1{
 
     padding: 20px 20px 20px 20px;
     font-size: 30px;
@@ -122,36 +136,215 @@
   }
 
   #about-us {
-    z-index: 1;
-    position: fixed;
-
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.30);
-    backdrop-filter: blur(20px);
-
-
-    overflow: scroll;
-
-    padding-bottom: 100%;
-
-
     right: -100%;
-
-
-    -moz-tranzition: all 600ms;
-    -webkit-tranzition: all 600ms;
-    transition: all 600ms;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
   }
 
   #about-us.active{
     right: 0%
   }
 
-
   #about-us.close{
     right: -100%;
 
   }
+
+
+
+
+  #germanium {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #germanium.active{
+    right: 0%
+  }
+
+
+
+  #germanium.close{
+    right: -100%;
+
+  }
+
+
+
+
+  #germanium-granules {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #germanium-granules.active{
+    right: 0%
+  }
+
+
+  #germanium-granules.close{
+    right: -100%;
+
+  }
+
+
+
+  #germanium-optics {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #germanium-optics.active{
+    right: 0%
+  }
+
+
+  #germanium-optics.close{
+    right: -100%;
+
+  }
+
+
+  #germanium-dioxide {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #germanium-dioxide.active{
+    right: 0%
+  }
+
+
+  #germanium-dioxide.close{
+    right: -100%;
+
+  }
+
+
+  #polycrystalline-germanium {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #polycrystalline-germanium.active{
+    right: 0%
+  }
+
+
+  #polycrystalline-germanium.close{
+    right: -100%;
+
+  }
+
+
+
+
+  #silicon {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #silicon.active{
+    right: 0%
+  }
+
+
+  #silicon.close{
+    right: -100%;
+
+  }
+
+
+
+  #zinc-selenide {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #zinc-selenide.active{
+    right: 0%
+  }
+
+
+  #zinc-selenide.close{
+    right: -100%;
+
+  }
+
+
+
+
+  #zinc-sulfide {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #zinc-sulfide.active{
+    right: 0%
+  }
+
+
+  #zinc-sulfide.close{
+    right: -100%;
+
+  }
+
+
+  #recycling {
+    right: -100%;
+    top: 0%;
+    mix-blend-mode: exclusion;
+    padding-bottom: 20%;
+    width: 50%;
+    height: 100%;
+  }
+
+  #recycling.active{
+    right: 0%
+  }
+
+
+  #recycling.close{
+    right: -100%;
+
+  }
+
+
+
 
 }

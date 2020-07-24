@@ -21,33 +21,58 @@
 
 
   #about-us {
-    z-index: 1;
-    position: fixed;
-    top: 0%;
-    right: -100%;
+    width: 35%;
+  }
 
-    width: 30%;
-    height: 100%;
-    background: rgba(0,0,0,0.30);
-    backdrop-filter: blur(20px);
-
-    overflow: scroll;
-
-    padding-bottom: 0%;
-
-    display: block;
-
-    cursor: pointer;
+  #germanium {
+    width: 35%;
   }
 
 
-  #about-us p{
+  #germanium-granules {
+    width: 35%;
+  }
+
+
+  #germanium-optics {
+    width: 35%;
+  }
+
+  #germanium-dioxide {
+    width: 35%;
+  }
+
+  #polycrystalline-germanium {
+    width: 35%;
+  }
+
+  #silicon {
+    width: 35%;
+  }
+
+  #zinc-selenide {
+    width: 35%;
+  }
+
+  #zinc-sulfide {
+    width: 35%;
+  }
+
+  #recycling {
+    width: 35%;
+  }
+
+
+
+
+
+  .sidebar p{
     font-size: 25px;
     line-height: 32px;
     padding: 20px 50px 20px 50px;
   }
 
-  #about-us h1{
+  .sidebar h1{
 
     padding: 40px 50px 20px 50px;
     font-size: 50px;

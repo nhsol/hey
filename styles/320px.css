@@ -44,23 +44,237 @@
   }
 
 
-  #about-us p{
+  .sidebar p{
     font-size: 18px;
     line-height: 27px;
     padding: 10px 20px 20px 20px;
   }
 
-  #about-us h1{
+  .sidebar h1{
     font-size: 30px;
     line-height: 35px;
     padding: 40px 20px 20px 20px;
   }
 
 
+  #about-us {
+    z-index: 1;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #about-us.active{
+    bottom: 0%
+  }
+
+
+  #germanium {
+    z-index: 1;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #germanium.active{
+    bottom: 0%
+  }
+
+
+  #germanium-granules {
+    z-index: 1;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #germanium-granules.active{
+    bottom: 0%
+  }
+
+
+  #germanium-optics {
+    z-index: 1;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #germanium-optics.active{
+    bottom: 0%
+  }
+
+
+  #germanium-dioxide {
+    z-index: 1;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #germanium-dioxide.active{
+    bottom: 0%
+  }
+
+
+
+
+  #polycrystalline-germanium {
+    z-index: 1;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #polycrystalline-germanium.active{
+    bottom: 0%
+  }
+
+
+  #silicon {
+    z-index: 1;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #silicon.active{
+    bottom: 0%
+  }
+
+
+  #zinc-selenide {
+    z-index: 1;
+    position: fixed;
+
+    /* width: 100%;
+    height: 100%; */
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #zinc-selenide.active{
+    bottom: 0%
+  }
+
+
+
+  #zinc-sulfide {
+    z-index: 1;
+    position: fixed;
+
+    /* width: 100%;
+    height: 100%; */
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #zinc-sulfide.active{
+    bottom: 0%
+  }
+
+
+  #recycling {
+    z-index: 1;
+    position: fixed;
+
+    /* width: 100%;
+    height: 100%; */
+
+    padding-bottom: 100%;
+
+
+    bottom: 100%;
+
+    mix-blend-mode: unset;
+
+  }
+
+  #recycling.active{
+    bottom: 0%
+  }
+
+
+
 
 
   .eye{
-    z-index: 2;
+
     position: fixed;
     bottom: 20px;
     top: auto;
@@ -87,16 +301,15 @@
     background-repeat: no-repeat;
   }
 
-  .staff{
-    width: calc(100%/2);
-    height: calc(100%/2);
 
-    background-image: url(../img/germanium.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+
+
+
+
+
+
   
-  }
 
 
   .is {
