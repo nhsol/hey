@@ -60,14 +60,6 @@
 }
 
 
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-	.sidebar-about-us {
-		background-color: rgba(0, 0, 0, 0.3);
-		backdrop-filter: blur(30px);
-		-webkit-backdrop-filter: blur(30px);
-	}
-}
-
 
 body {
   background: #000000;
@@ -106,10 +98,12 @@ a {
 
 .main li{
   opacity: 0.3;
+  mix-blend-mode: difference;
 }
 
 .main li:hover{
   opacity: 1;
+  mix-blend-mode: hard-light;
 }
 
 
@@ -231,6 +225,7 @@ a {
 
 .main li{
  cursor: pointer;
+ max-width: 250px;
 }
 
 
@@ -239,14 +234,28 @@ a {
 }
 
 
+/* @supports (-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px)) {
+	.sidebar-about-us {
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background: rgba(0,0,0,0.10);
+	}
+}
 
-/* .sidebar-about-us{
-  background: rgba(0,0,0,0.30);
-  -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
+@supports not (-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px)) {
+	.sidebar-about-us {
+		background-color: #000000;
+	}
 } */
 
-
+.sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling{
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background: rgba(0,0,0,0.10);
+  /* mix-blend-mode: luminosity;
+  background-color: #616161; */
+  box-shadow: -3px 0 15px 0 rgba(0,0,0,0.35);
+}
 
 
 #about-us {
@@ -283,9 +292,7 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
+
 
   overflow-y: scroll;
 
@@ -315,9 +322,6 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
 
   overflow-y: scroll;
 
@@ -346,9 +350,6 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
 
   overflow-y: scroll;
 
@@ -378,9 +379,6 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
 
   overflow-y: scroll;
 
@@ -408,9 +406,6 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
 
   overflow-y: scroll;
 
@@ -439,9 +434,6 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
 
   overflow-y: scroll;
 
@@ -471,9 +463,6 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
 
   overflow-y: scroll;
 
@@ -507,9 +496,6 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
 
   overflow-y: scroll;
 
@@ -542,9 +528,6 @@ a {
 
   width: 100%;
   height: 100%;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.30);
 
   overflow-y: scroll;
 
