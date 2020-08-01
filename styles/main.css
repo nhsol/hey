@@ -63,6 +63,7 @@
 
 body {
   background: #000000;
+  overflow-x: hidden;
 }
 
 p, li, h1, h2{
@@ -70,13 +71,11 @@ p, li, h1, h2{
 }
 
 
-
-
 nav{
   align-items: flex-start;
   font-family: "ALS_Sector_Regular_2.0", sans-serif;
-  mix-blend-mode: hard-light;
 }
+
 
 .contacts{
   display: flex;
@@ -96,22 +95,14 @@ a {
   line-height: 20px;
 }
 
-.main li{
-  opacity: 0.3;
-  mix-blend-mode: difference;
+
+
+#rotate{
+  -moz-tranzition: all 0.3s ease-in-out;
+  -webkit-tranzition: all  0.3s ease-in-out;
+  transition: all  0.3s ease-in-out;
+
 }
-
-.main li:hover{
-  opacity: 1;
-  mix-blend-mode: hard-light;
-}
-
-
-/* #rotate{
-  -webkit-animation: rotate-center 0.3s ease-in 0s;
-	        animation: rotate-center 0.3s ease-in 0s;
-
-} */
 
 
 
@@ -147,6 +138,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-germanium.active{
@@ -154,6 +147,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-germanium-granules.active{
@@ -161,6 +156,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-germanium-optics.active{
@@ -168,6 +165,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-germanium-dioxide.active{
@@ -175,6 +174,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-polycrystalline-germanium.active{
@@ -182,6 +183,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-silicon.active{
@@ -189,6 +192,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-zinc-salenide.active{
@@ -196,6 +201,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-zinc-sulfide.active{
@@ -203,6 +210,8 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 #li-recycling.active{
@@ -210,6 +219,19 @@ a {
   animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
+}
+
+
+
+#li-contact-us.active{
+  animation: flash 2.5s infinite;
+  animation-timing-function: linear;
+  -webkit-animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+
+  mix-blend-mode: normal;
 }
 
 
@@ -229,50 +251,38 @@ a {
 }
 
 
-.eye{
-  z-index: 3;
+.body{
+  position: absolute;
+  width: 100%;
 }
 
-
-/* @supports (-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px)) {
-	.sidebar-about-us {
-    -webkit-backdrop-filter: blur(30px);
-    backdrop-filter: blur(30px);
-    background: rgba(0,0,0,0.10);
-	}
-}
-
-@supports not (-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px)) {
-	.sidebar-about-us {
-		background-color: #000000;
-	}
-} */
-
-.sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling{
-  -webkit-backdrop-filter: blur(30px);
+.sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling, .sidebar-contact-us{
+  /* -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
-  background: rgba(0,0,0,0.10);
-  /* mix-blend-mode: luminosity;
-  background-color: #616161; */
-  box-shadow: -3px 0 15px 0 rgba(0,0,0,0.35);
+  background: rgba(0,0,0,0.1); */
+  background: #3B3B3B;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
 }
 
+
+#eye{
+  position: absolute;
+
+}
 
 #about-us {
-  z-index: 1;
-  position: fixed;
+
 
   width: 100%;
   height: 100%;
-
-  overflow-y: scroll;
-
 
   padding-bottom: 100%;
 
 
   bottom: 100%;
-
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
@@ -281,14 +291,11 @@ a {
 }
 
 #about-us.active{
-  bottom: 0%
+  bottom: 0%;
 }
 
 
 #germanium{
-
-  z-index: 1;
-  position: fixed;
 
   width: 100%;
   height: 100%;
@@ -317,14 +324,8 @@ a {
 
 #germanium-granules{
 
-  z-index: 1;
-  position: fixed;
-
   width: 100%;
   height: 100%;
-
-  overflow-y: scroll;
-
 
   padding-bottom: 100%;
 
@@ -345,14 +346,9 @@ a {
 
 #germanium-optics{
 
-  z-index: 1;
-  position: fixed;
 
   width: 100%;
   height: 100%;
-
-  overflow-y: scroll;
-
 
   padding-bottom: 100%;
 
@@ -374,14 +370,8 @@ a {
 
 #germanium-dioxide{
 
-  z-index: 1;
-  position: fixed;
-
   width: 100%;
   height: 100%;
-
-  overflow-y: scroll;
-
 
   padding-bottom: 100%;
 
@@ -401,14 +391,8 @@ a {
 
 #polycrystalline-germanium{
 
-  z-index: 1;
-  position: fixed;
-
   width: 100%;
   height: 100%;
-
-  overflow-y: scroll;
-
 
   padding-bottom: 100%;
 
@@ -429,14 +413,8 @@ a {
 
 #silicon{
 
-  z-index: 1;
-  position: fixed;
-
   width: 100%;
   height: 100%;
-
-  overflow-y: scroll;
-
 
   padding-bottom: 100%;
 
@@ -457,9 +435,6 @@ a {
 
 
 #zinc-selenide{
-
-  z-index: 1;
-  position: fixed;
 
   width: 100%;
   height: 100%;
@@ -491,15 +466,8 @@ a {
 
 #zinc-sulfide{
 
-  z-index: 1;
-  position: fixed;
-
   width: 100%;
   height: 100%;
-
-  overflow-y: scroll;
-
-
 
   padding-bottom: 100%;
 
@@ -523,15 +491,9 @@ a {
 
 #recycling{
 
-  z-index: 1;
-  position: fixed;
 
   width: 100%;
   height: 100%;
-
-  overflow-y: scroll;
-
-
 
   padding-bottom: 100%;
 
@@ -550,6 +512,29 @@ a {
 
 
 
+#contact-us{
+
+
+  width: 100%;
+  height: 100%;
+
+  padding-bottom: 100%;
+
+
+  bottom: 100%;
+
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+  transition: all 600ms;
+}
+
+#contact-us{
+  bottom: 0%
+}
+
+
+
 
 .sidebar p{
   font-family: "ALS_Sector_Regular_2.0",sans-serif;
@@ -562,12 +547,11 @@ a {
 
 
 .toggle-btn-cancel{
-  z-index: 2;
   position: sticky;
   margin-top: 20px;
   width: 40px;
   height: 40px;
-  background: #3B3B3B;
+  background: #272727;
   border-radius: 19.5px;
   text-align: center;
   padding: 10px;
@@ -575,9 +559,80 @@ a {
   left: 45%;
   display: flex;
 
+  cursor: pointer;
+
 }
 
 .toggle-btn-cancel img{
   margin: auto;
 
+}
+
+input{
+  width: 100vw;
+  padding-top: 0px;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  font-size: inherit;
+
+  background: rgba(0, 0, 0, 0.0);
+
+  color: #F9F9F9;
+
+
+  font-family: "ALS_Sector_Regular_2.0";
+
+  caret-color: white;
+
+  outline: none;
+
+  margin-top: 50px;
+
+  text-align: left;
+}
+
+
+input:last-of-type{
+
+  margin-top: 100px;
+
+}
+
+
+input::placeholder{
+
+  opacity: 0.51;
+  padding: 10px;
+
+  color: #F9F9F9;
+
+}
+
+
+button{
+
+  cursor: pointer;
+
+  font-family: "ALS_Sector_Regular_2.0";
+
+  color: #F9F9F9;
+
+
+  background: rgba(0,0,0,0.26);
+  border-radius: 12px;
+
+  text-align: center;
+
+  width: 175px;
+  height: 50px;
+
+  margin: 100px 0vw 0px 35%;
+
+  border-width: 0px;
+}
+
+button:hover{
+
+  background: #F6A01B;
+  border-radius: 12px;
 }

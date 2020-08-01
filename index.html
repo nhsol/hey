@@ -8,24 +8,37 @@
   </head>
   <body>
 
-  <section class="body">
+
+  <div class="is eye" id="eye">
+    <div class="is rotate" id="rotate">
+      <div class="is germanium" id="img-germanium">
+        <img src="img/germanium.png" alt="">
+      </div>
+      <div class="is dioxide" id="img-dioxide">
+        <img src="img/dioxide.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <section class="body" id="body">
     <nav>
       <div class="overview">
         <img class="logo" src="img/logo.svg" alt="logo">
         <p> We&nbsp;produce the highest-quality infrared optical materials and substrates for commercial, aerospace, defense and semiconductor industry.</p>
       </div>
 
-      <ul class="contacts">
+      <ul class="contacts" id="contacts">
         <li>
-          <a href="#">+1 718-219-7666</a>
+          <a href="tel:+17182197666">+1 718-219-7666</a>
         </li>
 
         <li>
-          <a href="#">info@nhsol.net</a>
+          <a href="mailto:info@nhsol.net">info@nhsol.net</a>
         </li>
 
         <li>
-          <a href="#">East 14th Street Suite, Brooklyn, NY</a>
+          <a target="_blank" href="https://www.google.com/maps/search/East+14th+Street+Suite,+Brooklyn,+NY/@40.6101263,-73.9619315,17z/data=!3m1!4b1">East 14th Street Suite, Brooklyn, NY</a>
         </li>
       </ul>
     </nav>
@@ -78,7 +91,7 @@
       </ul>
 
       <ul class="is-contact">
-        <li id="li">
+        <li id="li-contact-us" onclick="openContactUs()">
           Contact us
         </li>
       </ul>
@@ -97,20 +110,7 @@
   </section>
 
 
-  <div class="is eye" id="eye">
-    <div class="is rotate" id="rotate">
-      <div class="is germanium" id="img-germanium">
-        <img src="img/germanium.png" alt="">
-      </div>
-      <div class="is dioxide" id="img-dioxide">
-        <img src="img/dioxide.png" alt="">
-      </div>
-
-    </div>
-  </div>
-
   <section class="sidebar">
-
 
     <div class="sidebar-about-us" id="about-us">
         <div class="toggle-btn-cancel" onclick="closeAbout()">
@@ -203,8 +203,21 @@
         <p>NightHawk Solutions asks you to&nbsp;consider recycling your germanium refuse items, broken optics, technology wastes and liquids. We&nbsp;work with germanium as&nbsp;low as&nbsp;2% content solutions and compounds to&nbsp;give a&nbsp;second life to&nbsp;germanium products.</p><p>You are welcome to&nbsp;contact&nbsp;us with any requests and concerns related to&nbsp;the recycling of&nbsp;germanium.</p>
     </div>
 
+    <div class="sidebar-contact-us" id="contact-us">
+      <div class="toggle-btn-cancel" onclick="closeContactUs()">
+       <img src="img/cancel.svg" alt="cancel">
+      </div>
+      <h1>Contact us</h1>
+      <p>We sincerely appreciate any feedback and invite you to exchange your ideas with us!</p>
+      <form>
+        <input class="name" type="text" placeholder="Name" autofocus></input>
+        <input class="email" type="text" placeholder="E-mail" autofocus></input>
+        <input class="phone-number" type="text" placeholder="Phone number" autofocus></input>
+        <input class="message" type="text" placeholder="Your message" autofocus></input>
+        <button type="button">Send</button>
+      </form>
+    </div>
   </section>
-
 
  <script src="script.js"></script>
  <script src="return.js"></script>
