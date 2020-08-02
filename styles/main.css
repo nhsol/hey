@@ -96,6 +96,27 @@ a {
 }
 
 
+.body li, p, h1, a {
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.30);
+}
+
+.main li:hover {
+  -moz-tranzition: all 0.2s ease-in-out;
+  -webkit-tranzition: all  0.2s ease-in-out;
+  transition: all  0.2s ease-in-out;
+  color: #E57200;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
+}
+
+.contacts a:hover {
+  -moz-tranzition: all 0.2s ease-in-out;
+  -webkit-tranzition: all  0.2s ease-in-out;
+  transition: all  0.2s ease-in-out;
+  color: #E57200;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
+}
+
+
 
 #rotate{
   -moz-tranzition: all 0.3s ease-in-out;
@@ -232,12 +253,8 @@ a {
 .main li{
  cursor: pointer;
  max-width: 250px;
- opacity: 0.3;
 }
 
-.main li:hover{
- opacity: 1;
-}
 
 
 .body{

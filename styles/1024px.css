@@ -99,7 +99,7 @@
 
 
   #eye{
-    transform: translate(-30%, -5%);
+    transform: translate(-20%, -15%);
     pointer-events: none;
     transition: transform 3s cubic-bezier(.10,1.23,.79,1.08);
   }
