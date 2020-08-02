@@ -3,9 +3,9 @@
 
   nav{
     margin: 20px 20px 25px 20px;
-    font-size: 16px;
-    line-height: 20px;
-    max-width: 1000px;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -94,7 +94,6 @@
     margin: 0vh 20px 0 40vw;
 
     font-family: "ALS_Sector_Regular_2.0";
-    font-size: 15px;
 
   }
 
@@ -107,19 +106,18 @@
 
 
   nav{
-    mix-blend-mode: overlay;
-    -webkit-mix-blend-mode: overlay;
-    isolation: isolate;
+    mix-blend-mode: difference;
+    -webkit-mix-blend-mode: difference;
   }
 
   footer{
-    mix-blend-mode: overlay;
-    -webkit-mix-blend-mode: overlay;
+    mix-blend-mode: difference;
+    -webkit-mix-blend-mode: difference;
   }
 
   .main li{
-    mix-blend-mode: overlay;
-    -webkit-mix-blend-mode: overlay;
+    mix-blend-mode: difference;
+    -webkit-mix-blend-mode: difference;
   }
 
 

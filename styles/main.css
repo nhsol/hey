@@ -139,7 +139,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-germanium.active{
@@ -148,7 +148,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-germanium-granules.active{
@@ -157,7 +157,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-germanium-optics.active{
@@ -166,7 +166,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-germanium-dioxide.active{
@@ -175,7 +175,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-polycrystalline-germanium.active{
@@ -184,7 +184,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-silicon.active{
@@ -193,7 +193,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-zinc-salenide.active{
@@ -202,7 +202,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-zinc-sulfide.active{
@@ -211,7 +211,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 #li-recycling.active{
@@ -220,7 +220,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 
@@ -231,7 +231,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 
@@ -254,12 +254,15 @@ a {
 .body{
   position: absolute;
   width: 100%;
+
 }
 
+
+
 .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling, .sidebar-contact-us{
-  /* -webkit-backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
-  background: rgba(0,0,0,0.1); */
+  background: rgba(0,0,0,0.1);
   background: #3B3B3B;
   position: fixed;
   overflow-y: scroll;

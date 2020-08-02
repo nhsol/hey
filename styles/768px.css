@@ -4,7 +4,7 @@
     margin: 20px 20px 25px 20px;
     font-size: 16px;
     line-height: 20px;
-    max-width: 1000px;
+    max-width: 1100px;
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -18,10 +18,21 @@
     margin: 110px 20px 0px 20px;
   }
 
+  .main{
+    font-family: "ALS_Sector_Bold_2.0",sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .main li{
+   max-width: 320px;
+
+  }
+
 
   .overview p{
     margin: 20px 0px 20px 0px;
-    max-width: 350px;
+    max-width: 400px;
   }
 
   #eye{
@@ -104,7 +115,7 @@
     margin: 0vh 20px 0 40vw;
 
     font-family: "ALS_Sector_Regular_2.0";
-    font-size: 15px;
+    font-size: 18px;
   }
 
 
@@ -117,7 +128,7 @@
     margin-top: 10%;
 
     font-family: "ALS_Sector_Regular_2.0",sans-serif;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   button{
@@ -203,7 +214,6 @@
   #germanium-optics {
     right: -100%;
     top: 0%;
-    mix-blend-modes: unset;
     padding-bottom: 20%;
     width: 50%;
     height: 100%;
@@ -223,7 +233,6 @@
   #germanium-dioxide {
     right: -100%;
     top: 0%;
-    mix-blend-modes: unset;
     padding-bottom: 20%;
     width: 50%;
     height: 100%;
@@ -243,7 +252,6 @@
   #polycrystalline-germanium {
     right: -100%;
     top: 0%;
-    mix-blend-modes: unset;
     padding-bottom: 20%;
     width: 50%;
     height: 100%;
@@ -265,7 +273,6 @@
   #silicon {
     right: -100%;
     top: 0%;
-    mix-blend-modes: unset;
     padding-bottom: 20%;
     width: 50%;
     height: 100%;
@@ -286,7 +293,6 @@
   #zinc-selenide {
     right: -100%;
     top: 0%;
-    mix-blend-modes: unset;
     padding-bottom: 20%;
     width: 50%;
     height: 100%;
@@ -308,7 +314,6 @@
   #zinc-sulfide {
     right: -100%;
     top: 0%;
-    mix-blend-modes: unset;
     padding-bottom: 20%;
     width: 50%;
     height: 100%;
@@ -328,7 +333,6 @@
   #recycling {
     right: -100%;
     top: 0%;
-    mix-blend-modes: unset;
     padding-bottom: 20%;
     width: 50%;
     height: 100%;
@@ -349,7 +353,6 @@
   #contact-us {
     right: -100%;
     top: 0%;
-    mix-blend-modes: unset;
     padding-bottom: 20%;
     width: 50%;
     height: 100%;
