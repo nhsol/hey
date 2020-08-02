@@ -62,36 +62,87 @@
     background-repeat: no-repeat;
   }
 
-  .germanium{
-
-    width: calc(100%/2);
-    height: calc(100%/2);
-
-    background-image: url(../img/germanium.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-  }
-
-  .dioxide{
-
-    width: calc(100%/2);
-    height: calc(100%/2);
-
-    background-image: url(../img/germanium.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-  }
-
 
   .is {
     display: flex;
     margin: auto;
     border-radius: 100%;
   }
+
+  /* .staff{
+
+    width: calc(100%/2);
+    height: calc(100%/2);
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/germanium.png);
+
+  } */
+
+
+  #staff{
+    width: calc(100%/2);
+    height: calc(100%/2);
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+
+  #staff.germanium{
+    background-image: url(../img/germanium.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #staff.dioxide{
+    background-image: url(../img/dioxide.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #staff.granules{
+    background-image: url(../img/granulas.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #staff.selenide{
+    background-image: url(../img/selenide.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #staff.silicon{
+    background-image: url(../img/silicon.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #staff.gpz{
+    background-image: url(../img/gpz.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #staff.gpz{
+    background-image: url(../img/gpz.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+
 
   .is-studio-logo{
     margin: 40px 20px 0px 20px;

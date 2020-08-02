@@ -116,22 +116,6 @@ a {
 	        animation: rotate-center 0.3s ease-in 0s;
 } */
 
-#img-germanium{
-  display: none;
-}
-
-#img-germanium.active{
-  display: block;
-}
-
-#img-dioxide{
-  display: none;
-}
-
-#img-dioxide.active{
-  display: block;
-}
-
 
 #li-about.active{
   animation: flash 2.5s infinite;
@@ -248,12 +232,18 @@ a {
 .main li{
  cursor: pointer;
  max-width: 250px;
+ opacity: 0.3;
+}
+
+.main li:hover{
+ opacity: 1;
 }
 
 
 .body{
   position: absolute;
   width: 100%;
+  z-index: -1;
 
 }
 
@@ -263,16 +253,35 @@ a {
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
   background: rgba(0,0,0,0.1);
-  background: #3B3B3B;
+  /* background: #3B3B3B; */
   position: fixed;
   overflow-y: scroll;
   overflow-x: hidden;
 
 }
 
+.sidebar-germanium img{
+  width: 100%;
+}
+
+.sidebar-germanium-granules img{
+  width: 100%;
+}
+
+.sidebar-germanium-dioxide img{
+  width: 100%;
+}
+
+.sidebar-polycrystalline-germanium img{
+  width: 100%;
+}
+.sidebar-silicon img{
+  width: 100%;
+}
 
 #eye{
   position: absolute;
+  z-index: -100;
 
 }
 

@@ -11,11 +11,7 @@
 
   <div class="is eye" id="eye">
     <div class="is rotate" id="rotate">
-      <div class="is germanium" id="img-germanium">
-        <img src="img/germanium.png" alt="">
-      </div>
-      <div class="is dioxide" id="img-dioxide">
-        <img src="img/dioxide.png" alt="">
+      <div class="is staff" id="staff">
       </div>
     </div>
   </div>
@@ -54,28 +50,29 @@
         <li id="li-germanium" onclick="openGermanium()">
           Germanium
         </li>
-        <li id="li-germanium-granules" onclick="openGermaniumGranules()">
+        <li id="li-germanium-granules" onclick="openGermaniumGranules()"
+        onmouseover="mouseOverGranules()" onmouseout="mouseOutGranules()">
           Germanium Granules
         </li>
         <li id="li-germanium-optics" onclick="openGermaniumOptics()">
           Germanium Optics
         </li>
-        <li id="li-germanium-dioxide" onclick="openGermaniumDioxide()">
+        <li id="li-germanium-dioxide" onclick="openGermaniumDioxide()" onmouseover="mouseOverDioxide()" onmouseout="mouseOutDioxide()">
           Germanium Dioxide (GeO2)
         </li>
-        <li id="li-polycrystalline-germanium" onclick="openPolycrystallineGermanium()">
+        <li id="li-polycrystalline-germanium" onclick="openPolycrystallineGermanium()" onmouseover="mouseOverGpz()" onmouseout="mouseOutGpz()">
           Polycrystalline Germanium (GPZ)
         </li>
       </ul>
 
       <ul class="is-silicon">
-        <li id="li-silicon" onclick="openSilicon()">
+        <li id="li-silicon" onclick="openSilicon()" onmouseover="mouseOverSilicon()" onmouseout="mouseOutSilicon()">
           Silicon
         </li>
       </ul>
 
       <ul class="is-zinc">
-        <li id="li-zinc-salenide" onclick="openZincSalenide()">
+        <li id="li-zinc-salenide" onclick="openZincSalenide()" onmouseover="mouseOverSelenide()" onmouseout="mouseOutSelenide()">
           Zinc Selenide (ZnSe)
         </li>
         <li id="li-zinc-sulfide" onclick="openZincSulfide()">
@@ -126,6 +123,7 @@
         </div>
         <h1>Germanium</h1>
         <p>Germanium is widely used in fiber optics, infrared optics, semiconductors and solar applications. It is considered a strategic material for many military and commercial applications.</p><p>The NightHawk Solutions” list of products includes, but is not limited to, the following items:</p><p>— Optical elements of various shapes and configurations (windows, wafers, prisms, lenses) per individual customers' specification</p> <p>— Germanium dioxide</p><p>— GeO2 (up to 99.9999%</p><p>— Polycrystalline germanium</p><p>— GPZ (up to 99.9999%)</p><p>— Germanium granules (up to 99.999%).</p>
+        <img src="img/germanium-inner.png" alt="inner"></img>
     </div>
 
     <div class="sidebar-germanium-granules" id="germanium-granules">
@@ -134,6 +132,7 @@
         </div>
         <h1>Germanium Granules</h1>
         <p>Germanium granules are primarily used for evaporating and coating processes, where high-tech applications are regularly sensitive to the pureness and quality.</p><p>NightHawk Solutions is able to provide 99.999% pure germanium granules with low oxygen content conforming to the most demanding requirements.</p>
+        <img src="img/granulas-inner.png" alt="inner"></img>
     </div>
 
     <div class="sidebar-germanium-optics" id="germanium-optics">
@@ -150,6 +149,7 @@
         </div>
         <h1>Germanium Dioxide (GeO2)</h1>
         <p>The refractive index and optical dispersion properties of germanium dioxide make it useful as an optical material for wide-angle lenses, in optical microscope objective lenses, and for the core of fiber-optic lines.</p><p>Germanium dioxide is also used in catalysts for polymerization in the production of polyethylene terephthalate (PET).</p>
+        <img src="img/dioxide-inner.png" alt="inner"></img>
     </div>
 
     <div class="sidebar-polycrystalline-germanium" id="polycrystalline-germanium">
@@ -159,6 +159,7 @@
         <h1>Polycrystalline Germanium</h1>
         <p>Polycrystalline germanium is mainly used as a raw material in the single crystal growing process. Insofar as the quality of monocrystalline germanium depends principally on the technology and source material, high quality GPZ is considered essential for the pulling process.</p>
         <p>NightHawk Solutions offers 99.9999% polycrystalline germanium suitable for growing.</p>
+        <img src="img/gpz-inner.png" alt="inner"></img>
     </div>
 
     <div class="sidebar-silicon" id="silicon">
@@ -169,6 +170,7 @@
         <p>Commonly, silicon is considered as the material of choice for systems operating in the Middle Infrared (MIR) region, from 3 to 5 µm. But in fact, the material may be used in a much broader operating range — from 1.2 µm to 1000 µm or even higher.</p>
         <p>Due to its high absorption at a wavelength of 9 µm, optical silicon is not used in CO2 lasers as transmitting optics, but is widely used for the production of mirrors.</p>
         <p>NightHawk solutions offers silicon windows, mirrors, witness samples, and lenses.</p>
+        <img src="img/silicon-inner.png" alt="inner"></img>
     </div>
 
     <div class="sidebar-zinc-selenide" id="zinc-selenide">
@@ -178,8 +180,9 @@
         <h1>Zinc Selenide</h1>
         <p>Zinc Selenide (ZnSe) is widely used in CO2 laser components, infrared spectroscopy, imaging systems, IR pyrometers, surveillance and detection systems.</p>
         <p>Zinc Selenide is transparent in wide spectral range from visible to far infrared. ZnSe material is a chemically inert, non-hygroscopic and highly pure product that is very effective in many optical applications due to its extremely low bulk losses, high resistance to thermal shock and stability in virtually all environments.</p>
-        <img src="img/zinc_salenide.png" alt="zinc-salenide"></img>
+        <img src="img/selenide-inner.png" alt="inner"></img>
         <p>NightHawk Solutions is able to provide windows, lenses, prisms and custom-made ZnSe optics.</p>
+        <img src="img/zinc_salenide.png" alt="zinc-salenide"></img>
     </div>
 
     <div class="sidebar-zinc-sulfide" id="zinc-sulfide">

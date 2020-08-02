@@ -1,29 +1,3 @@
-//
-//
-//
-// document.getElementById("li-germanium-dioxide").onmouseover = function() {mouseOver()};
-// document.getElementById("li-germanium-dioxide").onmouseout = function() {mouseOut()};
-//
-// function mouseOver() {
-//   return document.getElementById("img-dioxide").classList.toggle('active');
-// }
-//
-// function mouseOut() {
-//   document.getElementById("img-dioxide").classList.remove('active');
-// };
-//
-//
-//
-// document.getElementById("li-germanium").onmouseover = function() {mouseOver()};
-// document.getElementById("li-germanium").onmouseout = function() {mouseOut()};
-//
-// function mouseOver() {
-//   return document.getElementById("img-germanium").classList.toggle('active');
-// }
-//
-// function mouseOut() {
-//   document.getElementById("img-germanium").classList.remove('active');
-// }
 
 var content = document.getElementById("rotate");
 var elementsArray = document.querySelectorAll("#li-about, #li-germanium, #li-germanium-granules, #li-germanium-optics, #li-germanium-dioxide, #li-polycrystalline-germanium, #li-silicon, #li-zinc-salenide, #li-zinc-sulfide, #li-recycling");

@@ -1,23 +1,58 @@
-// document.getElementById("about-us").classList.remove('active');
-// document.getElementById("li-about").classList.remove('active');
-// document.getElementById("germanium").classList.remove('active');
-// document.getElementById("li-germanium").classList.remove('active');
-// document.getElementById("germanium-granules").classList.remove('active');
-// document.getElementById("li-germanium-granules").classList.remove('active');
-// document.getElementById("germanium-optics").classList.remove('active');
-// document.getElementById("li-germanium-optics").classList.remove('active');
-// document.getElementById("germanium-dioxide").classList.remove('active');
-// document.getElementById("li-germanium-dioxide").classList.remove('active');
-// document.getElementById("polycrystalline-germanium").classList.remove('active');
-// document.getElementById("li-polycrystalline-germanium").classList.remove('active');
-// document.getElementById("silicon").classList.remove('active');
-// document.getElementById("li-silicon").classList.remove('active');
-// document.getElementById("zinc-selenide").classList.remove('active');
-// document.getElementById("li-zinc-salenide").classList.remove('active');
-// document.getElementById("zinc-sulfide").classList.remove('active');
-// document.getElementById("li-zinc-sulfide").classList.remove('active');
-// document.getElementById("recycling").classList.remove('active');
-// document.getElementById("li-recycling").classList.remove('active');
+document.getElementById("li-germanium").onmouseover = function() {mouseOverGermanium()};
+document.getElementById("li-germanium").onmouseout = function() {mouseOutGermanium()};
+
+function mouseOverGermanium() {
+  document.getElementById("staff").classList.toggle('germanium');
+};
+
+function mouseOutGermanium() {
+  document.getElementById("staff").classList.remove('germanium');
+};
+
+
+function mouseOverDioxide() {
+  document.getElementById("staff").classList.toggle('dioxide');
+};
+
+function mouseOutDioxide() {
+  document.getElementById("staff").classList.remove('dioxide');
+};
+
+
+function mouseOverGranules() {
+  document.getElementById("staff").classList.toggle('granules');
+};
+
+function mouseOutGranules() {
+  document.getElementById("staff").classList.remove('granules');
+};
+
+
+function mouseOverSilicon() {
+  document.getElementById("staff").classList.toggle('silicon');
+};
+
+function mouseOutSilicon() {
+  document.getElementById("staff").classList.remove('silicon');
+};
+
+
+function mouseOverSelenide() {
+  document.getElementById("staff").classList.toggle('selenide');
+};
+
+function mouseOutSelenide() {
+  document.getElementById("staff").classList.remove('selenide');
+};
+
+
+function mouseOverGpz() {
+  document.getElementById("staff").classList.toggle('gpz');
+};
+
+function mouseOutGpz() {
+  document.getElementById("staff").classList.remove('gpz');
+};
 
 
 
