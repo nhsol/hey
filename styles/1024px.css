@@ -71,13 +71,13 @@
   .sidebar p, input{
     font-size: 20px;
     line-height: 27px;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 60px 20px 60px;
   }
 
   .sidebar h1{
-    padding: 40px 30px 20px 30px;
+    padding: 40px 60px 20px 60px;
     font-size: 45px;
-    line-height: 45px;
+    line-height: 50px;
   }
 
   button{
@@ -91,9 +91,10 @@
     align-items: flex-end;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    margin: 0vh 20px 0 40vw;
+    margin: 0vh 20px 0 35vw;
 
     font-family: "ALS_Sector_Regular_2.0";
+    width: 70%;
 
   }
 

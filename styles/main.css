@@ -76,6 +76,10 @@ nav{
   font-family: "ALS_Sector_Regular_2.0", sans-serif;
 }
 
+nav a{
+  padding: 8px 10px 8px 10px;
+}
+
 
 .contacts{
   display: flex;
@@ -86,34 +90,62 @@ nav{
 a {
   text-decoration: underline;
   color: #ffffff;
+
 }
+
 
 
 .main{
   font-family: "ALS_Sector_Bold_2.0",sans-serif;
   font-size: 16px;
   line-height: 20px;
+  max-width: 340px;
 }
 
 
 .body li, p, h1, a {
   text-shadow: 1px 1px 5px rgba(0,0,0,0.30);
+  border-radius: 17px;
 }
+
+
+.main li{
+ cursor: pointer;
+ display: inline-block;
+ padding: 8px 10px 8px 10px;
+ border-radius: 17px;
+}
+
+
 
 .main li:hover {
   -moz-tranzition: all 0.2s ease-in-out;
   -webkit-tranzition: all  0.2s ease-in-out;
   transition: all  0.2s ease-in-out;
-  color: #E57200;
+
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+
+  background: rgba(255,220,191,0.24);
+
   text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
+
+  box-shadow: 0px 0 10px 0 rgba(0,0,0,0.15);
 }
 
 .contacts a:hover {
   -moz-tranzition: all 0.2s ease-in-out;
   -webkit-tranzition: all  0.2s ease-in-out;
   transition: all  0.2s ease-in-out;
-  color: #E57200;
+
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+
+  background: rgba(255,220,191,0.24);
+
   text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
+
+  box-shadow: 0px 0 10px 0 rgba(0,0,0,0.15);
 }
 
 
@@ -250,16 +282,9 @@ a {
   margin-top: 5px;
 }
 
-.main li{
- cursor: pointer;
- max-width: 250px;
-}
-
-
 
 .body{
   position: absolute;
-  width: 100%;
   z-index: -1;
 
 }
@@ -279,21 +304,38 @@ a {
 
 .sidebar-germanium img{
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .sidebar-germanium-granules img{
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .sidebar-germanium-dioxide img{
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .sidebar-polycrystalline-germanium img{
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+
 .sidebar-silicon img{
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-zinc-selenide img{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #eye{
