@@ -88,7 +88,7 @@ nav a{
 }
 
 a {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: #ffffff;
 
 }
@@ -132,6 +132,7 @@ a {
 
   box-shadow: 0px 0 10px 0 rgba(0,0,0,0.15);
 }
+
 
 .contacts a:hover {
   -moz-tranzition: all 0.2s ease-in-out;
@@ -268,10 +269,7 @@ a {
   -webkit-animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
 
-  /* mix-blend-mode: normal; */
 }
-
-
 
 .is-studio-logo{
   font-family: "ALS_Sector_Regular_2.0", sans-serif;
@@ -283,14 +281,6 @@ a {
 }
 
 
-.body{
-  position: absolute;
-  z-index: -1;
-
-}
-
-
-
 .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling, .sidebar-contact-us{
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
@@ -299,7 +289,6 @@ a {
   position: fixed;
   overflow-y: scroll;
   overflow-x: hidden;
-
 }
 
 .sidebar-germanium img{
@@ -353,7 +342,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
@@ -378,7 +367,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -401,7 +390,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -424,7 +413,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -447,7 +436,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -468,7 +457,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -490,7 +479,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -517,7 +506,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -543,7 +532,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -569,7 +558,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -592,7 +581,7 @@ a {
   padding-bottom: 100%;
 
 
-  bottom: 100%;
+  bottom: 110%;
 
 
   -moz-tranzition: all 600ms;
@@ -625,10 +614,10 @@ a {
   background: #272727;
   border-radius: 19.5px;
   text-align: center;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
   top: 0px;
   left: 45%;
-  display: flex;
+
 
   cursor: pointer;
 
@@ -636,15 +625,17 @@ a {
 
 .toggle-btn-cancel img{
   margin: auto;
+  text-align: center;
+  display: block;
 
 }
 
 input{
   width: 100vw;
-  padding-top: 0px;
   border: none;
   border-bottom: 2px solid #FFFFFF;
   font-size: inherit;
+  padding: 10px 10px 10px 10px;
 
   background: rgba(0, 0, 0, 0.0);
 
@@ -670,15 +661,19 @@ input:last-of-type{
 }
 
 
-input::placeholder{
+input::-webkit-input-placeholder {
 
   opacity: 0.51;
-  padding: 10px;
 
   color: #F9F9F9;
 
 }
 
+
+.sidebar-contact-us{
+  display: flex;
+  flex-direction: column;
+}
 
 button{
 
@@ -688,7 +683,6 @@ button{
 
   color: #F9F9F9;
 
-
   background: rgba(0,0,0,0.26);
   border-radius: 12px;
 
@@ -697,7 +691,9 @@ button{
   width: 175px;
   height: 50px;
 
-  margin: 100px 0vw 0px 35%;
+  display: block;
+
+  margin: 50px auto;
 
   border-width: 0px;
 }

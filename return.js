@@ -2,56 +2,80 @@ document.getElementById("li-germanium").onmouseover = function() {mouseOverGerma
 document.getElementById("li-germanium").onmouseout = function() {mouseOutGermanium()};
 
 function mouseOverGermanium() {
-  document.getElementById("staff").classList.toggle('germanium');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.toggle('germanium');
+  }
 };
 
 function mouseOutGermanium() {
-  document.getElementById("staff").classList.remove('germanium');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.remove('germanium');
+  }
 };
 
 
 function mouseOverDioxide() {
-  document.getElementById("staff").classList.toggle('dioxide');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.toggle('dioxide');
+  }
 };
 
 function mouseOutDioxide() {
-  document.getElementById("staff").classList.remove('dioxide');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.remove('dioxide');
+  }
 };
 
 
 function mouseOverGranules() {
-  document.getElementById("staff").classList.toggle('granules');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.toggle('granules');
+  }
 };
 
 function mouseOutGranules() {
-  document.getElementById("staff").classList.remove('granules');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.remove('granules');
+  }
 };
 
 
 function mouseOverSilicon() {
-  document.getElementById("staff").classList.toggle('silicon');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.toggle('silicon');
+  }
 };
 
 function mouseOutSilicon() {
-  document.getElementById("staff").classList.remove('silicon');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.remove('silicon');
+  }
 };
 
 
 function mouseOverSelenide() {
-  document.getElementById("staff").classList.toggle('selenide');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.toggle('selenide');
+  }
 };
 
 function mouseOutSelenide() {
-  document.getElementById("staff").classList.remove('selenide');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.remove('selenide');
+  }
 };
 
 
 function mouseOverGpz() {
-  document.getElementById("staff").classList.toggle('gpz');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.toggle('gpz');
+  }
 };
 
 function mouseOutGpz() {
-  document.getElementById("staff").classList.remove('gpz');
+  if(window.screen.width>=1024){
+    document.getElementById("staff").classList.remove('gpz');
+  }
 };
 
 

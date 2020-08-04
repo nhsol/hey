@@ -16,6 +16,8 @@
 
   .main{
     margin: 14vh 20px 0px 20px;
+
+    max-width: 331px;
   }
 
 
@@ -71,36 +73,35 @@
   .sidebar p, input{
     font-size: 20px;
     line-height: 27px;
-    padding: 20px 60px 20px 60px;
+    padding: 20px 45px 20px 45px;
   }
 
   .sidebar h1{
-    padding: 40px 60px 20px 60px;
+    padding: 40px 45px 20px 45px;
     font-size: 45px;
     line-height: 50px;
   }
 
   button{
     font-size: 20px;
+    margin: 80px auto;
   }
 
 
   footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: flex-end;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    margin: 0vh 20px 0 35vw;
-
+    margin-left: 33%;
     font-family: "ALS_Sector_Regular_2.0";
-    width: 70%;
 
   }
 
 
   #eye{
-    transform: translate(-20%, -15%);
+    transform: translate(-20%, -2%);
     pointer-events: none;
     transition: transform 3s cubic-bezier(.10,1.23,.79,1.08);
   }

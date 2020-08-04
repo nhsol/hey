@@ -32,9 +32,14 @@
     padding: 0px 20px 20px 0px;
   }
 
+  nav a{
+    padding: 8px 10px 8px 0px;
+  }
+
 
   .main{
-    margin: 40px 20px 25px 20px;
+    margin: 40px 20px 25px 10px;
+    max-width: 280px;
   }
 
   .is-about, .is-germanium, .is-silicon, .is-zinc, .is-recycling, .is-contact{
@@ -57,8 +62,8 @@
   }
 
   .sidebar h1{
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 35px;
+    line-height: 40px;
     padding: 40px 20px 20px 20px;
   }
 
@@ -67,13 +72,11 @@
     width: 100%;
     height: 100%;
 
-    padding-bottom: 100%;
-
+    padding-bottom: 5%;
 
     bottom: 100%;
-
-
   }
+
 
   #about-us.active{
     bottom: 0%;
@@ -84,7 +87,7 @@
     width: 100%;
     height: 100%;
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
     bottom: 100%;
   }
@@ -98,7 +101,7 @@
     width: 100%;
     height: 100%;
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
     bottom: 100%;
 
@@ -113,7 +116,7 @@
     width: 100%;
     height: 100%;
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
 
     bottom: 100%;
@@ -132,7 +135,7 @@
     width: 100%;
     height: 100%;
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
     bottom: 100%;
 
@@ -151,7 +154,7 @@
     width: 100%;
     height: 100%;
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
     bottom: 100%;
 
@@ -168,7 +171,7 @@
     width: 100%;
     height: 100%;
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
 
     bottom: 100%;
@@ -184,7 +187,7 @@
 
   #zinc-selenide {
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
     bottom: 100%;t;
 
@@ -200,7 +203,7 @@
 
   #zinc-sulfide {
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
     bottom: 100%;
 
 
@@ -213,7 +216,7 @@
 
   #recycling {
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
     bottom: 100%;
 
@@ -226,7 +229,7 @@
 
   #contact-us {
 
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 
     bottom: 100%;
 
@@ -271,7 +274,7 @@
   }
 
   button{
-    font-size: 16px;
+    font-size: 18px;
   }
 
 

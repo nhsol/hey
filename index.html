@@ -91,19 +91,19 @@
           Contact us
         </li>
       </ul>
-
     </section>
 
-    <footer>
-      <div class="art-lebedev-logo">
-        <img src="img/art-lebedev-logo.svg" alt="art-lebedev-logo">
-        <p>Site by <a href="#">Art. Lebedev</a></p>
-      </div>
-      <div class="is-copyright">
-        <p> @NightHawk Solutions </p>
-      </div>
-    </footer>
   </section>
+
+  <footer>
+    <div class="art-lebedev-logo">
+      <img src="img/art-lebedev-logo.svg" alt="art-lebedev-logo">
+      <p>Site by <a href="#">Art. Lebedev</a></p>
+    </div>
+    <div class="is-copyright">
+      <p> @NightHawk Solutions </p>
+    </div>
+  </footer>
 
 
   <section class="sidebar">
@@ -211,12 +211,12 @@
       </div>
       <h1>Contact us</h1>
       <p>We sincerely appreciate any feedback and invite you to exchange your ideas with us!</p>
-      <form>
-        <input class="name" type="text" placeholder="Name" autofocus></input>
-        <input class="email" type="text" placeholder="E-mail" autofocus></input>
+      <form action="https://formspree.io/FORM_ID" method="POST">
+        <input class="name" type="text" placeholder="Name" name="name" autofocus></input>
+        <input class="email" type="text" placeholder="E-mail" name="_replyto" autofocus></input>
         <input class="phone-number" type="text" placeholder="Phone number" autofocus></input>
         <input class="message" type="text" placeholder="Your message" autofocus></input>
-        <button type="button">Send</button>
+        <button type="button" value="Send">Send</button>
       </form>
     </div>
   </section>
