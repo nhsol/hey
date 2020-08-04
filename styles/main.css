@@ -289,6 +289,8 @@ a {
   position: fixed;
   overflow-y: scroll;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-germanium img{
@@ -618,9 +620,7 @@ a {
   top: 0px;
   left: 45%;
 
-
   cursor: pointer;
-
 }
 
 .toggle-btn-cancel img{
@@ -662,18 +662,11 @@ input:last-of-type{
 
 
 input::-webkit-input-placeholder {
-
   opacity: 0.51;
 
   color: #F9F9F9;
-
 }
 
-
-.sidebar-contact-us{
-  display: flex;
-  flex-direction: column;
-}
 
 button{
 
