@@ -14,7 +14,6 @@
 
   .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling{
    box-shadow: -3px 0 15px 0 rgba(0,0,0,0.0);
-   padding: 40px 20px 20px 20px;
  }
 
 
@@ -75,7 +74,7 @@
 
     padding-bottom: 5%;
 
-    bottom: 100%;
+    bottom: 120%;
   }
 
 
@@ -90,7 +89,7 @@
 
     padding-bottom: 5%;
 
-    bottom: 100%;
+    bottom: 120%;
   }
 
   #germanium.active{
@@ -104,7 +103,7 @@
 
     padding-bottom: 5%;
 
-    bottom: 100%;
+    bottom: 120%;
 
   }
 
@@ -120,7 +119,7 @@
     padding-bottom: 5%;
 
 
-    bottom: 100%;
+    bottom: 120%;
 
 
 
@@ -138,7 +137,7 @@
 
     padding-bottom: 5%;
 
-    bottom: 100%;
+    bottom: 120%;
 
 
   }
@@ -157,7 +156,7 @@
 
     padding-bottom: 5%;
 
-    bottom: 100%;
+    bottom: 120%;
 
   }
 
@@ -175,7 +174,7 @@
     padding-bottom: 5%;
 
 
-    bottom: 100%;
+    bottom: 120%;
 
   }
 
@@ -190,7 +189,7 @@
 
     padding-bottom: 5%;
 
-    bottom: 100%;t;
+    bottom: 120%;
 
   }
 
@@ -205,7 +204,7 @@
   #zinc-sulfide {
 
     padding-bottom: 5%;
-    bottom: 100%;
+    bottom: 120%;
 
 
   }
@@ -219,7 +218,7 @@
 
     padding-bottom: 5%;
 
-    bottom: 100%;
+    bottom: 120%;
 
   }
 
@@ -232,7 +231,7 @@
 
     padding-bottom: 5%;
 
-    bottom: 100%;
+    bottom: 120%;
 
   }
 
