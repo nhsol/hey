@@ -124,9 +124,9 @@ function openGermaniumGranules() {
 
   document.getElementById("germanium-granules").classList.toggle('active');
   document.getElementById("li-germanium-granules").classList.toggle('active');
-  if(window.screen.width<=768){
-    document.body.style.overflow = "hidden";
-  };
+  // if(window.screen.width<=768){
+  //   document.body.style.overflow = "hidden";
+  // };
 
   document.getElementById("about-us").classList.remove('active');
   document.getElementById("li-about").classList.remove('active');
@@ -156,9 +156,9 @@ function closeGermaniumGranules() {
 
   document.getElementById("germanium-granules").classList.remove('active');
   document.getElementById("li-germanium-granules").classList.remove('active');
-  if(window.screen.width<=768){
-    document.body.style.overflow = "visible";
-  };
+  // if(window.screen.width<=768){
+  //   document.body.style.overflow = "visible";
+  // };
 
 }
 
@@ -167,9 +167,7 @@ function openGermaniumOptics() {
 
   document.getElementById("germanium-optics").classList.toggle('active');
   document.getElementById("li-germanium-optics").classList.toggle('active');
-  if(window.screen.width<=768){
-    document.body.style.overflow = "hidden";
-  };
+
 
   document.getElementById("about-us").classList.remove('active');
   document.getElementById("li-about").classList.remove('active');
