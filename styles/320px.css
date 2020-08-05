@@ -13,7 +13,7 @@
 
 
   .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling{
-   box-shadow: -3px 0 15px 0 rgba(0,0,0,0.0);
+   /* box-shadow: -3px 0 15px 0 rgba(0,0,0,0.0); */
  }
 
 
@@ -46,9 +46,7 @@
     margin-top: 40px;
   }
 
-  .is-germanium li, .is-zinc li{
-    margin-top: 10px;
-  }
+  
 
   .is-studio-logo{
     margin: 40px 20px 25px 20px;
