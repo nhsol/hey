@@ -6,6 +6,7 @@
     <title>Nighthawk Solution</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
 
@@ -211,18 +212,31 @@
       </div>
       <h1>Contact us</h1>
       <p>We sincerely appreciate any feedback and invite you to exchange your ideas with us!</p>
-      <form action="https://formspree.io/FORM_ID" method="POST">
-        <input class="name" type="text" placeholder="Name" name="name" autofocus></input>
-        <input class="email" type="text" placeholder="E-mail" name="_replyto" autofocus></input>
-        <input class="phone-number" type="text" placeholder="Phone number" autofocus></input>
+      <form>
+
+        <!-- Hidden Required Fields -->
+    		<input type="hidden" name="project_name" value="Site Name">
+    		<input type="hidden" name="admin_email" value="waw40978@cuoly.com ">
+    		<input type="hidden" name="form_subject" value="Form Subject">
+    		<!-- END Hidden Required Fields -->
+
+
+        <input type="text" placeholder="Name" name="name" autofocus></input>
+        <input type="text" placeholder="E-mail" name="_replyto" autofocus></input>
+        <input type="text" placeholder="Phone number" autofocus></input>
         <input class="message" type="text" placeholder="Your message" autofocus></input>
         <button type="button" value="Send">Send</button>
       </form>
     </div>
   </section>
 
+
+
  <script src="script.js"></script>
  <script src="return.js"></script>
+ <script src="mail.js"></script>
+
+ </script>
 
 
 </body>
