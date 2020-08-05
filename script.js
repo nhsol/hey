@@ -30,9 +30,9 @@ function openAbout() {
   // document.getElementById('body').style.zIndex = -1;
   document.getElementById("about-us").classList.toggle('active');
   document.getElementById("li-about").classList.toggle('active');
-  if(window.screen.width<=768){
-    document.body.style.overflow = "hidden";
-  };
+  // if(window.screen.width<=768){
+  //   document.body.style.overflow = "hidden";
+  // };
 
 
 
@@ -68,9 +68,9 @@ function closeAbout() {
 
   document.getElementById("about-us").classList.remove('active');
   document.getElementById("li-about").classList.remove('active');
-  if(window.screen.width<=768){
-    document.body.style.overflow = "visible";
-  };
+  // if(window.screen.width<=768){
+  //   document.body.style.overflow = "visible";
+  // };
 
 }
 
@@ -112,9 +112,9 @@ function closeGermanium() {
 
   document.getElementById("germanium").classList.remove('active');
   document.getElementById("li-germanium").classList.remove('active');
-  if(window.screen.width<=768){
-    document.body.style.overflow = "visible";
-  };
+  // if(window.screen.width<=768){
+  //   document.body.style.overflow = "visible";
+  // };
 
 }
 
@@ -198,9 +198,9 @@ function closeGermaniumOptics() {
 
   document.getElementById("germanium-optics").classList.remove('active');
   document.getElementById("li-germanium-optics").classList.remove('active');
-  if(window.screen.width<=768){
-    document.body.style.overflow = "visible";
-  };
+  // if(window.screen.width<=768){
+  //   document.body.style.overflow = "visible";
+  // };
 
 }
 
