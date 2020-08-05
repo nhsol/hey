@@ -3,8 +3,8 @@
 
   nav{
     margin: 20px 20px 25px 20px;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 27px;
     max-width: 350px;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
 
   .main{
     margin: 40px 20px 25px 10px;
-    max-width: 280px;
+    max-width: 310px;
   }
 
   .is-about, .is-germanium, .is-silicon, .is-zinc, .is-recycling, .is-contact{
@@ -54,7 +54,7 @@
 
 
   .sidebar p, input{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 27px;
     padding: 10px 20px 20px 20px;
   }
