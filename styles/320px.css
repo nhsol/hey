@@ -46,7 +46,7 @@
     margin-top: 40px;
   }
 
-  
+
 
   .is-studio-logo{
     margin: 40px 20px 25px 20px;
@@ -296,6 +296,10 @@
 
   .art-lebedev-logo {
     margin-bottom: 8vh;
+  }
+
+  .art-lebedev-logo p {
+    padding: 5px 7px;
   }
 
   .is-copyright p{
