@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .logo {
@@ -13,7 +13,13 @@
   }
 
   .main{
-    margin: 14vh 20px 0px 60px;
+    margin: 10vh 20px 0px 60px;
+  }
+
+
+  nav ul{
+    padding: 40px 10px 8px 0px;
+
   }
 
 

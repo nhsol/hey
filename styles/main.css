@@ -79,6 +79,14 @@ nav a{
   padding: 8px 10px 8px 10px;
 }
 
+#nav.active{
+  width: 400px;
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+  transition: all 600ms;
+
+}
+
 
 .contacts{
   display: flex;
@@ -97,7 +105,7 @@ a {
 .main{
   font-family: "ALS_Sector_Bold_2.0",sans-serif;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 2px;
   max-width: 340px;
 }
 

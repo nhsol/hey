@@ -1,10 +1,10 @@
 @media (min-width: 768px){
 
   nav{
-    margin: 20px 20px 25px 20px;
+    margin: 30px 20px 25px 30px;
     font-size: 18px;
     line-height: 22px;
-    max-width: 1100px;
+    max-width: 700px;
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -15,23 +15,32 @@
     padding: 8px 10px 8px 10px;
   }
 
+  nav p{
+    margin: 0px 0px 0px 0px;
+    max-width: 350px;
+  }
+
 
 
 
   .main{
-    margin: 60px 20px 0px 20px;
+    margin: 60px 20px 0px 30px;
     font-family: "ALS_Sector_Bold_2.0",sans-serif;
     font-size: 20px;
     line-height: 26px;
 
-    max-width: 300px;
+    max-width: 340px;
+  }
+
+  .main li{
+    margin-top: 5px;
   }
 
 
 
   .overview p{
     margin: 20px 0px 20px 0px;
-    max-width: 400px;
+    max-width: 250px;
   }
 
   #eye{

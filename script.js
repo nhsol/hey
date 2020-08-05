@@ -34,8 +34,6 @@ function openAbout() {
   };
 
 
-
-
   document.getElementById("germanium").classList.remove('active');
   document.getElementById("li-germanium").classList.remove('active');
   document.getElementById("germanium-granules").classList.remove('active');

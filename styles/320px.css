@@ -5,7 +5,7 @@
     margin: 20px 20px 25px 20px;
     font-size: 18px;
     line-height: 27px;
-    max-width: 350px;
+    max-width: 450px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -23,27 +23,34 @@
 
 
 
-  .overview p{
-    margin: 20px 0px 20px 0px;
-    max-width: 350px;
+  nav p{
+    margin: 0px 0px 0px 0px;
+    max-width: 600px;
   }
 
   .contacts li{
     padding: 0px 20px 20px 0px;
   }
 
-  nav a{
-    padding: 8px 10px 8px 0px;
+  nav ul{
+    margin-left: -10px;
+    padding: 20px 10px 8px 0px;
+    max-width: 400px;
+    white-space: nowrap;
   }
 
 
   .main{
-    margin: 40px 20px 25px 10px;
+    margin: 40px 10px 25px 10px;
     max-width: 310px;
   }
 
   .is-about, .is-germanium, .is-silicon, .is-zinc, .is-recycling, .is-contact{
     margin-top: 40px;
+  }
+
+  .main li{
+    margin-top: 20px;
   }
 
 
