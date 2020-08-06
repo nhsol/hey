@@ -136,8 +136,6 @@ a {
   background: rgba(255,220,191,0.24);
 
   text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
-
-  box-shadow: 0px 0 10px 0 rgba(0,0,0,0.15);
 }
 
 
@@ -153,7 +151,6 @@ a {
 
   text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
 
-  box-shadow: 0px 0 10px 0 rgba(0,0,0,0.15);
 }
 
 .art-lebedev-logo:hover p{

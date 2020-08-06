@@ -205,7 +205,7 @@
 
 
   .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling .sidebar-contact-us{
-   box-shadow: -3px 0 15px 0 rgba(0,0,0,0.35);
+   /* box-shadow: -3px 0 15px 0 rgba(0,0,0,0.35); */
   }
 
 
