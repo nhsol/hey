@@ -32,6 +32,7 @@ function openAbout() {
   if(window.screen.width<=768){
     document.body.style.overflow = "hidden";
   };
+  
 
 
   document.getElementById("germanium").classList.remove('active');
