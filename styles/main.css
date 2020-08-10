@@ -75,7 +75,7 @@ nav{
   font-family: "ALS_Sector_Regular_2.0", sans-serif;
 }
 
-nav a{
+.overview a{
   padding: 8px 10px 8px 10px;
 }
 
@@ -112,7 +112,7 @@ a {
 
 .body li, p, h1, a {
   text-shadow: 1px 1px 5px rgba(0,0,0,0.30);
-  border-radius: 17px;
+  border-radius: 25px;
 }
 
 
@@ -120,7 +120,7 @@ a {
  cursor: pointer;
  display: inline-block;
  padding: 8px 10px 8px 10px;
- border-radius: 17px;
+ border-radius: 20px;
 }
 
 
@@ -139,7 +139,7 @@ a {
 }
 
 
-.body a:hover {
+.overview li:hover {
   -moz-tranzition: all 0.2s ease-in-out;
   -webkit-tranzition: all  0.2s ease-in-out;
   transition: all  0.2s ease-in-out;
