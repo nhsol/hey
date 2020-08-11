@@ -2,19 +2,35 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  mix-blend-mode: none;
+  mix-blend-mode: normal;
+  -webkit-mix-blend-mode: normal;
+  -moz-mix-blend-mode: normal;
+  -o-mix-blend-mode: normal;
+  -ms-mix-blend-mode: normal;
 }
 
 *.thermal{
   mix-blend-mode: hard-light;
+  -webkit-mix-blend-mode: hard-light;
+  -moz-mix-blend-mode: hard-light;
+  -o-mix-blend-mode: hard-light;
+  -ms-mix-blend-mode: hard-light;
 }
 
 *.night{
   mix-blend-mode: exclusion;
+  -webkit-mix-blend-mode: exclusion;
+  -moz-mix-blend-mode: exclusion;
+  -o-mix-blend-mode: exclusion;
+  -ms-mix-blend-mode: exclusion;
 }
 
 *.other{
   mix-blend-mode: luminosity;
+  -webkit-mix-blend-mode: luminosity;
+  -moz-mix-blend-mode: luminosity;
+  -o-mix-blend-mode: luminosity;
+  -ms-mix-blend-mode: luminosity;
 }
 
 
