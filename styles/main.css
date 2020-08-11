@@ -2,6 +2,19 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  mix-blend-mode: none;
+}
+
+*.thermal{
+  mix-blend-mode: hard-light;
+}
+
+*.night{
+  mix-blend-mode: exclusion;
+}
+
+*.other{
+  mix-blend-mode: luminosity;
 }
 
 
@@ -293,6 +306,21 @@ a {
 
 .is-studio-logo p{
   margin-top: 5px;
+}
+
+.sidebar-about-us a{
+  -ms-transform: skewX(15deg);
+  transform: skewX(15deg);
+  opacity: 0.4;
+  display: inline-block;
+  cursor: pointer;
+  transition: .3s transform ease;
+}
+
+.sidebar-about-us a:hover{
+  -ms-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+  opacity: 1;
 }
 
 
@@ -631,6 +659,10 @@ a {
   cursor: pointer;
 }
 
+.toggle-btn-cancel:hover{
+  background: #F6A01B;
+}
+
 .toggle-btn-cancel img{
   margin: auto;
   text-align: center;
@@ -654,7 +686,7 @@ input{
 }
 
 
-input:last-of-type{
+.message{
 
   margin-top: 100px;
 
@@ -668,8 +700,7 @@ input::-webkit-input-placeholder {
 }
 
 
-button{
-
+.button{
   cursor: pointer;
 
   font-family: "ALS_Sector_Regular_2.0";
@@ -684,13 +715,25 @@ button{
   width: 175px;
   height: 50px;
 
+  padding: initial;
+
   display: block;
-  margin: 50px auto;
+  margin: 80px auto;
   border-width: 0px;
+  transition: all 100ms ease;
+
+  box-shadow: 5px 5px 0 0 #F6A01B;
 }
 
-button:hover{
+.button:hover{
 
   background: #F6A01B;
   border-radius: 12px;
+  box-shadow: 5px 5px 0 0 #2D2D2D;
+}
+
+.button:active{
+  transform: translate3d(4px, 4px, 0);
+
+  box-shadow: 0px 0px 0px rgba(103, 108, 218, 0.5);
 }

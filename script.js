@@ -32,7 +32,8 @@ function openAbout() {
   if(window.screen.width<=768){
     document.body.style.overflow = "hidden";
   };
-  
+
+
 
 
   document.getElementById("germanium").classList.remove('active');
@@ -55,9 +56,6 @@ function openAbout() {
   document.getElementById("li-recycling").classList.remove('active');
   document.getElementById("contact-us").classList.remove('active');
   document.getElementById("li-contact-us").classList.remove('active');
-
-
-
 
 
 }
@@ -146,7 +144,6 @@ function openGermaniumGranules() {
   document.getElementById("li-recycling").classList.remove('active');
   document.getElementById("contact-us").classList.remove('active');
   document.getElementById("li-contact-us").classList.remove('active');
-
 
 }
 
