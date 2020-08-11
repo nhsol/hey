@@ -1,15 +1,12 @@
 * {
   box-sizing: border-box;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   mix-blend-mode: normal;
-  -webkit-mix-blend-mode: normal;
-  -moz-mix-blend-mode: normal;
-  -o-mix-blend-mode: normal;
-  -ms-mix-blend-mode: normal;
 }
 
-*.thermal{
+/* *.thermal{
   mix-blend-mode: hard-light;
   -webkit-mix-blend-mode: hard-light;
   -moz-mix-blend-mode: hard-light;
@@ -31,7 +28,7 @@
   -moz-mix-blend-mode: luminosity;
   -o-mix-blend-mode: luminosity;
   -ms-mix-blend-mode: luminosity;
-}
+} */
 
 
 @-webkit-keyframes flash {
@@ -100,8 +97,9 @@ p, li, h1, h2{
 
 
 nav{
-  align-items: flex-start;
   font-family: "ALS_Sector_Regular_2.0", sans-serif;
+
+  align-items: flex-start;
 }
 
 .overview a{
@@ -110,15 +108,18 @@ nav{
 
 #nav.active{
   width: 400px;
+
+  transition: all 600ms;
+
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 
 }
 
 
 .contacts{
   display: flex;
+
   flex-wrap: wrap;
   justify-content: flex-start;
 }
@@ -132,73 +133,76 @@ a {
 
 
 .main{
+  max-width: 340px;
+
   font-family: "ALS_Sector_Bold_2.0",sans-serif;
   font-size: 18px;
   line-height: 2px;
-  max-width: 340px;
 }
 
 
 .body li, p, h1, a {
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.30);
   border-radius: 25px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.30);
 }
 
 
 .main li{
- cursor: pointer;
  display: inline-block;
+
  padding: 8px 10px 8px 10px;
+
+ cursor: pointer;
+
  border-radius: 20px;
 }
 
 
 
 .main li:hover {
-  -moz-tranzition: all 0.2s ease-in-out;
-  -webkit-tranzition: all  0.2s ease-in-out;
   transition: all  0.2s ease-in-out;
 
+  background: rgba(255,220,191,0.24);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
+
+  -moz-tranzition: all 0.2s ease-in-out;
+  -webkit-tranzition: all  0.2s ease-in-out;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-
-  background: rgba(255,220,191,0.24);
-
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
 }
 
 
 .overview li:hover {
-  -moz-tranzition: all 0.2s ease-in-out;
-  -webkit-tranzition: all  0.2s ease-in-out;
   transition: all  0.2s ease-in-out;
 
+  background: rgba(255,220,191,0.24);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
+
+  -moz-tranzition: all 0.2s ease-in-out;
+  -webkit-tranzition: all  0.2s ease-in-out;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-
-  background: rgba(255,220,191,0.24);
-
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
 
 }
 
 .art-lebedev-logo:hover p{
-  -moz-tranzition: all 0.2s ease-in-out;
-  -webkit-tranzition: all  0.2s ease-in-out;
   transition: all  0.2s ease-in-out;
 
+  background: rgba(255,220,191,0.24);
+
+  -moz-tranzition: all 0.2s ease-in-out;
+  -webkit-tranzition: all  0.2s ease-in-out;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-
-  background: rgba(255,220,191,0.24);
 }
 
 
 
 #rotate{
+  transition: all  0.3s ease-in-out;
+
   -moz-tranzition: all 0.3s ease-in-out;
   -webkit-tranzition: all  0.3s ease-in-out;
-  transition: all  0.3s ease-in-out;
 
 }
 
@@ -216,91 +220,91 @@ a {
 
 
 #li-about.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-germanium.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-germanium-granules.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-germanium-optics.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-germanium-dioxide.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-polycrystalline-germanium.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-silicon.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-zinc-salenide.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-zinc-sulfide.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
 
 #li-recycling.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
   /* mix-blend-mode: normal; */
 }
@@ -308,10 +312,10 @@ a {
 
 
 #li-contact-us.active{
-  animation: flash 2.5s infinite;
-  animation-timing-function: linear;
   -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
   -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 
 }
 
@@ -325,30 +329,36 @@ a {
 }
 
 .sidebar-about-us a{
+  display: inline-block;
+
+  cursor: default;
+  transition: .3s transform ease;
   -ms-transform: skewX(15deg);
   transform: skewX(15deg);
+
   opacity: 0.4;
-  display: inline-block;
-  cursor: pointer;
-  transition: .3s transform ease;
 }
 
 .sidebar-about-us a:hover{
   -ms-transform: skewX(-15deg);
   transform: skewX(-15deg);
+
   opacity: 1;
 }
 
 
 .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling, .sidebar-contact-us{
-  -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
-  background: rgba(0,0,0,0.1);
   /* background: #3B3B3B; */
   position: fixed;
-  overflow-y: scroll;
+
   display: flex;
+  overflow-y: scroll;
   flex-direction: column;
+
+  background: rgba(0,0,0,0.1);
+
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
 }
 
 .sidebar-contact-us{
@@ -398,19 +408,16 @@ a {
 }
 
 #about-us {
-
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 
 }
 
@@ -420,19 +427,16 @@ a {
 
 
 #germanium{
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #germanium{
@@ -443,19 +447,16 @@ a {
 
 
 #germanium-granules{
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #germanium-granules{
@@ -465,20 +466,16 @@ a {
 
 
 #germanium-optics{
-
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #germanium-optics{
@@ -489,19 +486,16 @@ a {
 
 
 #germanium-dioxide{
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #germanium-dioxide{
@@ -510,19 +504,16 @@ a {
 
 
 #polycrystalline-germanium{
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #polycrystalline-germanium{
@@ -532,19 +523,16 @@ a {
 
 
 #silicon{
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #silicon{
@@ -555,19 +543,16 @@ a {
 
 
 #zinc-selenide{
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #zinc-selenide{
@@ -581,19 +566,16 @@ a {
 
 
 #zinc-sulfide{
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #zinc-sulfide{
@@ -606,20 +588,16 @@ a {
 
 
 #recycling{
-
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #recycling{
@@ -629,20 +607,16 @@ a {
 
 
 #contact-us{
-
+  bottom: 110%;
 
   width: 100%;
   height: 100%;
-
   padding-bottom: 100%;
 
-
-  bottom: 110%;
-
+  transition: all 600ms;
 
   -moz-tranzition: all 600ms;
   -webkit-tranzition: all 600ms;
-  transition: all 600ms;
 }
 
 #contact-us{
@@ -662,17 +636,19 @@ a {
 
 .toggle-btn-cancel{
   position: sticky;
-  margin-top: 20px;
-  width: 40px;
-  height: 40px;
-  background: #272727;
-  border-radius: 19.5px;
-  text-align: center;
-  padding: 10px 10px 10px 10px;
   top: 0px;
   left: 45%;
 
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+
   cursor: pointer;
+  text-align: center;
+
+  border-radius: 19.5px;
+  background: #272727;
 }
 
 .toggle-btn-cancel:hover{
@@ -680,30 +656,35 @@ a {
 }
 
 .toggle-btn-cancel img{
-  margin: auto;
-  text-align: center;
   display: block;
+
+  margin: auto;
+
+  text-align: center;
 
 }
 
 input{
   width: 100vw;
+  margin-top: 50px;
+  padding: 10px 10px 10px 10px;
+
+  text-align: left;
+
+  color: #F9F9F9;
   border: none;
   border-bottom: 2px solid #FFFFFF;
-  font-size: inherit;
-  padding: 10px 10px 10px 10px;
-  background: rgba(0, 0, 0, 0.0);
-  color: #F9F9F9;
-  font-family: "ALS_Sector_Regular_2.0";
-  caret-color: white;
   outline: none;
-  margin-top: 50px;
-  text-align: left;
+  background: rgba(0, 0, 0, 0.0);
+
+  font-family: "ALS_Sector_Regular_2.0";
+  font-size: inherit;
+
+  caret-color: white;
 }
 
 
 .message{
-
   margin-top: 100px;
 
 }
@@ -711,41 +692,35 @@ input{
 
 input::-webkit-input-placeholder {
   opacity: 0.51;
-
   color: #F9F9F9;
 }
 
 
 .button{
-  cursor: pointer;
-
-  font-family: "ALS_Sector_Regular_2.0";
-
-  color: #F9F9F9;
-
-  background: #2D2D2D;
-  border-radius: 12px;
-
-  text-align: center;
+  display: block;
 
   width: 175px;
   height: 50px;
-
+  margin: 80px auto;
   padding: initial;
 
-  display: block;
-  margin: 80px auto;
-  border-width: 0px;
+  cursor: pointer;
   transition: all 100ms ease;
+  text-align: center;
 
+  color: #F9F9F9;
+  border-width: 0px;
+  border-radius: 12px;
+  background: #2D2D2D;
   box-shadow: 5px 5px 0 0 #F6A01B;
+
+  font-family: "ALS_Sector_Regular_2.0";
 }
 
 
 .button:hover{
-
-  background: #F6A01B;
   border-radius: 12px;
+  background: #F6A01B;
   box-shadow: 5px 5px 0 0 #2D2D2D;
 }
 

@@ -1,11 +1,14 @@
 @media (min-width: 768px){
 
   nav{
+    display: flex;
+
+    max-width: 700px;
     margin: 30px 20px 25px 30px;
+
     font-size: 18px;
     line-height: 22px;
-    max-width: 700px;
-    display: flex;
+
     flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: flex-start;
@@ -16,8 +19,8 @@
   }
 
   nav p{
-    margin: 0px 0px 0px 0px;
     max-width: 350px;
+    margin: 0px 0px 0px 0px;
   }
 
   nav ul{
@@ -34,12 +37,12 @@
 
 
   .main{
+    max-width: 340px;
     margin: 60px 20px 0px 30px;
+
     font-family: "ALS_Sector_Bold_2.0",sans-serif;
     font-size: 20px;
     line-height: 26px;
-
-    max-width: 340px;
   }
 
   .main li{
@@ -49,8 +52,8 @@
 
 
   .overview p{
-    margin: 20px 0px 20px 0px;
     max-width: 250px;
+    margin: 20px 0px 20px 0px;
   }
 
   #eye{
@@ -58,32 +61,33 @@
   }
 
   .eye{
-
     bottom: 0px;
+
     width: 100vw;
     height: 100vh;
 
     background-image: url(../img/eye.svg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
   .rotate{
-
     width: calc(95%);
     height: calc(95%);
 
     background-image: url(../img/rotate.svg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
 
   .is {
     display: flex;
+
     margin: auto;
+
     border-radius: 100%;
   }
 
@@ -92,85 +96,87 @@
     width: calc(100%/2);
     height: calc(100%/2);
 
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
 
   }
 
   #staff.germanium{
     background-image: url(../img/germanium.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
   #staff.dioxide{
     background-image: url(../img/dioxide.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
   #staff.granules{
     background-image: url(../img/granulas.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
   #staff.selenide{
     background-image: url(../img/selenide.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
   #staff.silicon{
     background-image: url(../img/silicon.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
   #staff.gpz{
     background-image: url(../img/gpz.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
   #staff.gpz{
     background-image: url(../img/gpz.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
 
 
   .is-copyright {
     position: relative;
+
+    margin: auto;
+
     text-align: center;
 
     font-family: "ALS_Sector_Regular_2.0",sans-serif;
-
-    margin: auto;
   }
 
 
 
   footer{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
     flex-direction: row-reverse;
+
+    margin: 60px 0px 15px 32%;
 
     font-family: "ALS_Sector_Regular_2.0";
     font-size: 16px;
 
-    margin: 60px 0px 15px 32%;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
   }
 
 
@@ -179,8 +185,10 @@
   }
 
   .is-copyright p{
-    text-align: center;
     margin-top: 10%;
+
+    text-align: center;
+
     font-size: 16px;
   }
 
@@ -189,13 +197,15 @@
   }
 
   .sidebar p, input{
+    padding: 10px 40px 20px 40px;
+
     font-size: 18px;
     line-height: 22px;
-    padding: 10px 40px 20px 40px;
   }
 
   .sidebar h1{
     padding: 20px 40px 20px 40px;
+
     font-size: 35px;
     line-height: 40px;
   }
@@ -206,11 +216,12 @@
 
 
   #about-us {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #about-us.active{
@@ -224,11 +235,12 @@
 
 
   #germanium {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #germanium.active{
@@ -243,11 +255,12 @@
 
 
   #germanium-granules {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #germanium-granules.active{
@@ -263,11 +276,12 @@
 
 
   #germanium-optics {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #germanium-optics.active{
@@ -282,11 +296,12 @@
 
 
   #germanium-dioxide {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #germanium-dioxide.active{
@@ -301,11 +316,12 @@
 
 
   #polycrystalline-germanium {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #polycrystalline-germanium.active{
@@ -322,11 +338,12 @@
 
 
   #silicon {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #silicon.active{
@@ -342,11 +359,12 @@
 
 
   #zinc-selenide {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #zinc-selenide.active{
@@ -363,11 +381,12 @@
 
 
   #zinc-sulfide {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #zinc-sulfide.active{
@@ -382,11 +401,12 @@
 
 
   #recycling {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #recycling.active{
@@ -402,11 +422,12 @@
 
 
   #contact-us {
-    right: -100%;
     top: 0%;
-    padding-bottom: 10%;
+    right: -100%;
+
     width: 55%;
     height: 100%;
+    padding-bottom: 10%;
   }
 
   #contact-us.active{

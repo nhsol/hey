@@ -1,39 +1,3 @@
-function mouseOverThermal(){
-
-  document.querySelector("*").classList.toggle('thermal');
-
-};
-
-function mouseOutThermal() {
-
-  document.querySelector("*").classList.remove('thermal');
-};
-
-function mouseOverNight(){
-
-  document.querySelector("*").classList.toggle('night');
-
-};
-
-function mouseOutNight() {
-
-  document.querySelector("*").classList.remove('night');
-};
-
-function mouseOverLight(){
-
-  document.querySelector("*").classList.toggle('other');
-
-};
-
-function mouseOutLight() {
-
-  document.querySelector("*").classList.remove('other');
-};
-
-
-
-
 
 document.getElementById("li-germanium").onmouseover = function() {mouseOverGermanium()};
 document.getElementById("li-germanium").onmouseout = function() {mouseOutGermanium()};
@@ -116,13 +80,35 @@ function mouseOutGpz() {
 };
 
 
-
-// var eye = document.getElementById('eye');
-//   if(window.screen.width>=1024){
-//     document.addEventListener('mousemove', function(e){
-//       var x = e.clientY;
-//       var y = e.clientX;
-//       eye.style.left = x + "px";
-//       eye.style.top = y + "px";
-//     });
+// function mouseOverThermal(){
+//
+//   document.querySelector("*").classList.toggle('thermal');
+//
+// };
+//
+// function mouseOutThermal() {
+//
+//   document.querySelector("*").classList.remove('thermal');
+// };
+//
+// function mouseOverNight(){
+//
+//   document.querySelector("*").classList.toggle('night');
+//
+// };
+//
+// function mouseOutNight() {
+//
+//   document.querySelector("*").classList.remove('night');
+// };
+//
+// function mouseOverLight(){
+//
+//   document.querySelector("*").classList.toggle('other');
+//
+// };
+//
+// function mouseOutLight() {
+//
+//   document.querySelector("*").classList.remove('other');
 // };

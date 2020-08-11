@@ -2,11 +2,14 @@
 
 
   nav{
+    display: flex;
+
+    max-width: 450px;
     margin: 20px 20px 25px 20px;
+
     font-size: 18px;
     line-height: 27px;
-    max-width: 450px;
-    display: flex;
+
     flex-wrap: wrap;
     align-items: flex-start;
   }
@@ -20,8 +23,8 @@
 
 
   nav p{
-    margin: 20px 0px 0px 0px;
     max-width: 600px;
+    margin: 20px 0px 0px 0px;
   }
 
   .contacts li{
@@ -30,16 +33,17 @@
   }
 
   nav ul{
+    max-width: 400px;
     margin-left: -13px;
     padding: 20px 10px 8px 0px;
-    max-width: 400px;
+
     white-space: nowrap;
   }
 
 
   .main{
-    margin: 40px 10px 25px 10px;
     max-width: 310px;
+    margin: 40px 10px 25px 10px;
   }
 
   .is-about, .is-germanium, .is-silicon, .is-zinc, .is-recycling, .is-contact{
@@ -58,25 +62,26 @@
 
 
   .sidebar p, input{
+    padding: 10px 20px 20px 20px;
+
     font-size: 20px;
     line-height: 27px;
-    padding: 10px 20px 20px 20px;
   }
 
   .sidebar h1{
+    padding: 40px 20px 20px 20px;
+
     font-size: 35px;
     line-height: 40px;
-    padding: 40px 20px 20px 20px;
   }
 
 
   #about-us {
+    bottom: 120%;
+
     width: 100%;
     height: 100%;
-
     padding-bottom: 5%;
-
-    bottom: 120%;
   }
 
 
@@ -86,12 +91,11 @@
 
 
   #germanium {
+    bottom: 120%;
+
     width: 100%;
     height: 100%;
-
     padding-bottom: 5%;
-
-    bottom: 120%;
   }
 
   #germanium.active{
@@ -100,12 +104,11 @@
 
 
   #germanium-granules {
+    bottom: 120%;
+
     width: 100%;
     height: 100%;
-
     padding-bottom: 5%;
-
-    bottom: 120%;
 
   }
 
@@ -115,13 +118,11 @@
 
 
   #germanium-optics {
+    bottom: 120%;
+
     width: 100%;
     height: 100%;
-
     padding-bottom: 5%;
-
-
-    bottom: 120%;
 
 
 
@@ -133,13 +134,11 @@
 
 
   #germanium-dioxide {
+    bottom: 120%;
 
     width: 100%;
     height: 100%;
-
     padding-bottom: 5%;
-
-    bottom: 120%;
 
 
   }
@@ -152,13 +151,11 @@
 
 
   #polycrystalline-germanium {
+    bottom: 120%;
 
     width: 100%;
     height: 100%;
-
     padding-bottom: 5%;
-
-    bottom: 120%;
 
   }
 
@@ -170,13 +167,11 @@
 
 
   #silicon {
+    bottom: 120%;
+
     width: 100%;
     height: 100%;
-
     padding-bottom: 5%;
-
-
-    bottom: 120%;
 
   }
 
@@ -188,10 +183,9 @@
 
 
   #zinc-selenide {
+    bottom: 120%;
 
     padding-bottom: 5%;
-
-    bottom: 120%;
 
   }
 
@@ -204,9 +198,9 @@
 
 
   #zinc-sulfide {
+    bottom: 120%;
 
     padding-bottom: 5%;
-    bottom: 120%;
 
 
   }
@@ -217,10 +211,9 @@
 
 
   #recycling {
+    bottom: 120%;
 
     padding-bottom: 5%;
-
-    bottom: 120%;
 
   }
 
@@ -230,10 +223,9 @@
 
 
   #contact-us {
+    bottom: 120%;
 
     padding-bottom: 5%;
-
-    bottom: 120%;
 
   }
 
@@ -249,30 +241,28 @@
 
 
   .eye{
-
-    bottom: 20px;
     top: auto;
+    bottom: 20px;
 
     width: 100vw;
     height: 100vw;
 
     background-image: url(../img/eye.svg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
 
 
   }
 
   .rotate{
-
     width: calc(95%);
     height: calc(95%);
 
     background-image: url(../img/rotate.svg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
   }
 
   button{
@@ -282,20 +272,24 @@
 
   .is {
     display: flex;
+
     margin: auto;
+
     border-radius: 100%;
   }
 
   footer{
     display: flex;
-    justify-content: space-between;
-    align-items: initial;
-    flex-wrap: wrap;
     flex-direction: column;
+
     margin: 80px 20px 0 20px;
 
     font-family: "ALS_Sector_Regular_2.0";
     font-size: 15px;
+
+    justify-content: space-between;
+    align-items: initial;
+    flex-wrap: wrap;
   }
 
   .art-lebedev-logo {
@@ -307,8 +301,9 @@
   }
 
   .is-copyright p{
-    text-align: center;
     margin-top: 100%;
+
+    text-align: center;
 
     font-family: "ALS_Sector_Regular_2.0",sans-serif;
     font-size: 14px;
