@@ -1,6 +1,6 @@
 
 var content = document.getElementById("rotate");
-var elementsArray = document.querySelectorAll("#li-about, #li-germanium, #li-germanium-granules, #li-germanium-optics, #li-germanium-dioxide, #li-polycrystalline-germanium, #li-silicon, #li-zinc-salenide, #li-zinc-sulfide, #li-recycling");
+var elementsArray = document.querySelectorAll("#li-about, #li-germanium, #li-germanium-granules, #li-germanium-optics, #li-germanium-dioxide, #li-polycrystalline-germanium, #li-silicon, #li-zinc-salenide, #li-zinc-sulfide, #li-recycling, #li-contact-us");
 var rot = 360;
 elementsArray.forEach(function(elem){
   elem.addEventListener("click", function() {
