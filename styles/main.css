@@ -347,19 +347,27 @@ a {
 }
 
 
+
+
+
 .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling, .sidebar-contact-us{
-  /* background: #3B3B3B; */
+  background: #3B3B3B;
   position: fixed;
 
   display: flex;
   overflow-y: scroll;
   flex-direction: column;
-
-  background: rgba(0,0,0,0.1);
-
-  -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
 }
+
+
+@supports ((-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px))) {
+  .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling, .sidebar-contact-us{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background: rgba(0,0,0,0.1);
+  }
+}
+
 
 .sidebar-contact-us{
   overflow-x: hidden;
