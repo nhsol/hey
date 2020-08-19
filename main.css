@@ -1,0 +1,739 @@
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  mix-blend-mode: normal;
+}
+
+/* *.thermal{
+  mix-blend-mode: hard-light;
+  -webkit-mix-blend-mode: hard-light;
+  -moz-mix-blend-mode: hard-light;
+  -o-mix-blend-mode: hard-light;
+  -ms-mix-blend-mode: hard-light;
+}
+
+*.night{
+  mix-blend-mode: exclusion;
+  -webkit-mix-blend-mode: exclusion;
+  -moz-mix-blend-mode: exclusion;
+  -o-mix-blend-mode: exclusion;
+  -ms-mix-blend-mode: exclusion;
+}
+
+*.other{
+  mix-blend-mode: luminosity;
+  -webkit-mix-blend-mode: luminosity;
+  -moz-mix-blend-mode: luminosity;
+  -o-mix-blend-mode: luminosity;
+  -ms-mix-blend-mode: luminosity;
+} */
+
+
+@-webkit-keyframes flash {
+   0%, 50%, 100% {
+   opacity: 1;
+   }
+
+   25%, 75% {
+   opacity: 0;
+   }
+}
+
+ @keyframes flash {
+   0%, 50%, 100% {
+   opacity: 1;
+   }
+
+   25%, 75% {
+   opacity: 0;
+   }
+}
+
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+
+body {
+  background: #000000;
+}
+
+p, li, h1, h2{
+  color: #ffffff;
+}
+
+
+nav{
+  font-family: "ALS_Sector_Regular_2.0", sans-serif;
+
+  align-items: flex-start;
+}
+
+.overview a{
+  padding: 8px 10px 8px 10px;
+}
+
+#nav.active{
+  width: 400px;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+
+}
+
+
+.contacts{
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+a {
+  /* text-decoration: underline; */
+  color: #ffffff;
+
+}
+
+
+
+.main{
+  max-width: 340px;
+
+  font-family: "ALS_Sector_Bold_2.0",sans-serif;
+  font-size: 18px;
+  line-height: 2px;
+}
+
+
+.body li, p, h1, a {
+  border-radius: 25px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.30);
+}
+
+
+.main li{
+ display: inline-block;
+
+ padding: 8px 10px 8px 10px;
+
+ cursor: pointer;
+
+ border-radius: 20px;
+}
+
+
+
+.main li:hover {
+  transition: all  0.2s ease-in-out;
+
+  background: rgba(255,220,191,0.24);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
+
+  -moz-tranzition: all 0.2s ease-in-out;
+  -webkit-tranzition: all  0.2s ease-in-out;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+
+.overview li:hover {
+  transition: all  0.2s ease-in-out;
+
+  background: rgba(255,220,191,0.24);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.0);
+
+  -moz-tranzition: all 0.2s ease-in-out;
+  -webkit-tranzition: all  0.2s ease-in-out;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+
+}
+
+.art-lebedev-logo:hover p{
+  transition: all  0.2s ease-in-out;
+
+  background: rgba(255,220,191,0.24);
+
+  -moz-tranzition: all 0.2s ease-in-out;
+  -webkit-tranzition: all  0.2s ease-in-out;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+
+
+#rotate{
+  transition: all  0.3s ease-in-out;
+
+  -moz-tranzition: all 0.3s ease-in-out;
+  -webkit-tranzition: all  0.3s ease-in-out;
+
+}
+
+
+
+#rotate.forward{
+  -webkit-animation: rotate-center 0.3s ease-in 0s;
+	        animation: rotate-center 0.3s ease-in 0s;
+}
+
+/* #rotate.back{
+  -webkit-animation: rotate-center 0.3s ease-in 0s;
+	        animation: rotate-center 0.3s ease-in 0s;
+} */
+
+
+#li-about.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-germanium.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-germanium-granules.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-germanium-optics.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-germanium-dioxide.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-polycrystalline-germanium.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-silicon.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-zinc-salenide.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-zinc-sulfide.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+#li-recycling.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  /* mix-blend-mode: normal; */
+}
+
+
+
+#li-contact-us.active{
+  -webkit-animation: flash 2.5s infinite;
+  animation: flash 2.5s infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+}
+
+.is-studio-logo{
+  font-family: "ALS_Sector_Regular_2.0", sans-serif;
+  font-size: 16px;
+}
+
+.is-studio-logo p{
+  margin-top: 5px;
+}
+
+.sidebar-about-us a{
+  display: inline-block;
+
+  cursor: default;
+  transition: .3s transform ease;
+  -ms-transform: skewX(15deg);
+  transform: skewX(15deg);
+
+  opacity: 0.4;
+}
+
+.sidebar-about-us a:hover{
+  -ms-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+
+  opacity: 1;
+}
+
+
+
+
+
+.sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling, .sidebar-contact-us{
+  background: #3B3B3B;
+  position: fixed;
+
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+}
+
+
+@supports ((-webkit-backdrop-filter: blur(30px)) or (backdrop-filter: blur(30px))) {
+  .sidebar-about-us, .sidebar-germanium, .sidebar-germanium-granules, .sidebar-germanium-optics, .sidebar-germanium-dioxide, .sidebar-polycrystalline-germanium, .sidebar-silicon, .sidebar-zinc-selenide, .sidebar-zinc-sulfide, .sidebar-recycling, .sidebar-contact-us{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background: rgba(0,0,0,0.1);
+  }
+}
+
+
+.sidebar-contact-us{
+  overflow-x: hidden;
+}
+
+.sidebar-germanium img{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-germanium-granules img{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-germanium-dioxide img{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-polycrystalline-germanium img{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-silicon img{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar-zinc-selenide img{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#eye{
+  position: absolute;
+  z-index: -100;
+
+}
+
+#about-us {
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+
+}
+
+#about-us.active{
+  bottom: 0%;
+}
+
+
+#germanium{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#germanium{
+  bottom: 0%
+}
+
+
+
+
+#germanium-granules{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#germanium-granules{
+  bottom: 0%
+}
+
+
+
+#germanium-optics{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#germanium-optics{
+  bottom: 0%
+}
+
+
+
+
+#germanium-dioxide{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#germanium-dioxide{
+  bottom: 0%
+}
+
+
+#polycrystalline-germanium{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#polycrystalline-germanium{
+  bottom: 0%
+}
+
+
+
+#silicon{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#silicon{
+  bottom: 0%
+}
+
+
+
+
+#zinc-selenide{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#zinc-selenide{
+  bottom: 0%
+}
+
+#zinc-selenide img{
+  width: 100%;
+}
+
+
+
+#zinc-sulfide{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#zinc-sulfide{
+  bottom: 0%
+}
+
+#zinc-sulfide img{
+  width: 100%;
+}
+
+
+#recycling{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#recycling{
+  bottom: 0%
+}
+
+
+
+#contact-us{
+  bottom: 110%;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+
+  transition: all 600ms;
+
+  -moz-tranzition: all 600ms;
+  -webkit-tranzition: all 600ms;
+}
+
+#contact-us{
+  bottom: 0%
+}
+
+
+.sidebar p{
+  font-family: "ALS_Sector_Regular_2.0",sans-serif;
+}
+
+
+.sidebar h1{
+  font-family: "ALS_Sector_Bold_2.0",sans-serif;
+}
+
+
+.toggle-btn-cancel{
+  position: sticky;
+  top: 0px;
+  left: 45%;
+
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+
+  cursor: pointer;
+  text-align: center;
+
+  border-radius: 19.5px;
+  background: #272727;
+}
+
+.toggle-btn-cancel:hover{
+  background: #F6A01B;
+}
+
+.toggle-btn-cancel img{
+  display: block;
+
+  margin: auto;
+
+  text-align: center;
+
+}
+
+input{
+  width: 100vw;
+  margin-top: 50px;
+  padding: 10px 10px 10px 10px;
+
+  text-align: left;
+
+  color: #F9F9F9;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  outline: none;
+  background: rgba(0, 0, 0, 0.0);
+
+  font-family: "ALS_Sector_Regular_2.0";
+  font-size: inherit;
+
+  caret-color: white;
+}
+
+
+.message{
+  margin-top: 100px;
+
+}
+
+
+input::-webkit-input-placeholder {
+  opacity: 0.51;
+  color: #F9F9F9;
+}
+
+
+.button{
+  display: block;
+
+  width: 175px;
+  height: 50px;
+  margin: 80px auto;
+  padding: initial;
+
+  cursor: pointer;
+  transition: all 100ms ease;
+  text-align: center;
+
+  color: #F9F9F9;
+  border-width: 0px;
+  border-radius: 12px;
+  background: #2D2D2D;
+  box-shadow: 5px 5px 0 0 #F6A01B;
+
+  font-family: "ALS_Sector_Regular_2.0";
+}
+
+
+.button:hover{
+  border-radius: 12px;
+  background: #F6A01B;
+  box-shadow: 5px 5px 0 0 #2D2D2D;
+}
+
+.button:active{
+  transform: translate3d(4px, 4px, 0);
+
+  box-shadow: 0px 0px 0px rgba(103, 108, 218, 0.5);
+}
